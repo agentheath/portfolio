@@ -1,0 +1,33 @@
+---
+layout: default
+title: Mattermost Web Client
+---
+
+# Mattermost Web Client
+
+## Log in to the Web Client
+
+For instructions on installing native apps on your desktop or laptop go to:
+* [Mac Client Setup]()
+* [Windows Client Setup]()
+* [Linux Client Setup]()
+
+If you are an existing user migrating from IRC, the [Migrating from IRC]() section might be helpful.
+
+Once you're set up, visit [Best Practices]() for tips on how to configure your client for maximum usability.
+
+## Set up the Web Client
+
+1. Access Mattermost via the following URL: [mattermost.com](https://mattermost.com)
+
+2. You'll be prompted to sign into Office 365. Click on the Office 365 button to initiate the SSO login.
+    * You'll be prompted for your *username* and *password*. Your *username* is your *@company.com* email address.
+    * Your *password* is the same password that you use to log in to your laptop.
+
+3. You'll then be prompted for 2-factor authentication. You can do so via the YubiKey USB device in your laptop or the Duo app on your work phone.
+
+4. You'll then be prompted to join a team. Join the *Company* team by clicking the arrow pointing right.
+
+5. You should now see the Mattermost start page. Congrats! You're in! Now you need to set up your [channels and notifications](channels_notifications).
+
+[back](./)
