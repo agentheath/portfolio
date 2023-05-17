@@ -14,8 +14,8 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 ### Tech Writing Samples
 
-* [Mattermost User Guide](./mattermost/)
-* [Mattermost Bot Framework]()
+* [Mattermost User Guide](./mattermost/mattermost)
+* [Mattermost Bot Framework](./mattermost/bot_framework)
 * [Mobile App Onboarding Guide]()
 * [Mobile App Governance Framework]()
 * [Meeting Recording Tool User Guide]()

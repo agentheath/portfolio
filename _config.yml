@@ -4,3 +4,9 @@ description: Technical Writer, Documentation Engineer, Man of Mystery
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
