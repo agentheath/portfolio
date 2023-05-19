@@ -55,4 +55,4 @@ For ultra-fast shortened URL creation, you can set a keyboard shortcut to genera
 
 ---
 
-[back]({{ site.url }}/)
+[back](../)

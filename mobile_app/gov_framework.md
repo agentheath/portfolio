@@ -146,4 +146,4 @@ Apps that don't satisfy the requirements, don't follow coding conventions or fai
 
 ---
 
-[back]({{ site.url }}/)
+[back](../)

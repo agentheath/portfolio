@@ -83,4 +83,4 @@ This section is for users who want to stream and record a meeting _already in-pr
 
 ---
 
-[back]({{ site.url }}/)
+[back](../)
