@@ -46,4 +46,6 @@ Ask your team what #channels you should join!
 1. Tap the three vertical dots in the upper-right corner of the screen.
 2. Tap **Settings**, then **Notifications**, then **Mobile** to configure your mobile notifications.
 
+---
+
 [back](./)

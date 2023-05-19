@@ -43,7 +43,8 @@ Our team is working on porting Crushinator, Pegasus, and Johnny5 to Mattermost i
 
 ## Additional resources
 
-* [Mattermost Users Group]()
 * [Comparison of the pros and cons of both IRC and Mattermost](https://www.slant.co/versus/4557/12763/~irc_vs_mattermost) (external link)
+
+---
 
 [back](./)

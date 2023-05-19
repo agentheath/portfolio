@@ -17,6 +17,8 @@ title: Mattermost Windows Client
 
 6. Log in with your @company.com email address and laptop password.
 
-7. From here, follow the instructions in the [Channels and Notifications](channels_notifications.md) section to join and create channels.
+7. From here, follow the instructions in the [Channels and Notifications](channels_notifications) section to join and create channels.
+
+---
 
 [back](./)

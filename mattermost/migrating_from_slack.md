@@ -35,4 +35,6 @@ NOTE: Crushinator (IRC) bot commands have been imported into Mattermost, so form
 
 The Slack instance will be available in read-only mode for 30 days after the migration before it is deprecated and made non-available.
 
+---
+
 [back](./)

@@ -15,6 +15,8 @@ The Mattermost desktop client is available for installation through your **Manag
 
 4. Add Mattermost to the "Login Items" list of applications launched on MacOS login.
 
-5. From here, follow the instructions in the [Get Started with Mattermost]() section to join and create channels.
+5. From here, follow the instructions in the [Channels and Notifications setup](channels_notifications) section to join and create channels.
+
+---
 
 [back](./)

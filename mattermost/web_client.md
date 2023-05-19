@@ -8,13 +8,13 @@ title: Mattermost Web Client
 ## Log in to the Web Client
 
 For instructions on installing native apps on your desktop or laptop go to:
-* [Mac Client Setup]()
-* [Windows Client Setup]()
-* [Linux Client Setup]()
+* [Mac Client Setup](mac_client)
+* [Windows Client Setup](windows_client)
+* [Linux Client Setup](linux_client)
 
-If you are an existing user migrating from IRC, the [Migrating from IRC]() section might be helpful.
-
-Once you're set up, visit [Best Practices]() for tips on how to configure your client for maximum usability.
+If you are an existing user migrating from IRC or Slack, check out:
+* [Migrating from IRC](migrating_from_irc)
+* [Migrating from Slack](migrating_from_slack)
 
 ## Set up the Web Client
 
@@ -29,5 +29,7 @@ Once you're set up, visit [Best Practices]() for tips on how to configure your c
 4. You'll then be prompted to join a team. Join the *Company* team by clicking the arrow pointing right.
 
 5. You should now see the Mattermost start page. Congrats! You're in! Now you need to set up your [channels and notifications](channels_notifications).
+
+---
 
 [back](./)

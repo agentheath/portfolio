@@ -21,14 +21,6 @@ It is available to all _Company_ employees! It is essential for oncalls, product
 involved in Incident Management and Response. All _Company_ employees can use Mattermost as a fallback communications
 platform in the event of major infra failures or outages.
 
-**Global Security Operations**: Mattermost is to be used in the event Safety Center is unavailable (an outage, etc).
-
-IMPORTANT: Mattermost is **not** intended to replace Workplace Chat or email! It is a **backup** communications platform
-intended primarily for engineers responding to the outage. During a major infrastructure failure or outage, Mattermost may
-not be able to support all the users of workplace, which could result in system slowness and potentially interfere with the
-engineers addressing the SEV.Therefore, if you are not directly involved in addressing the outage, we advise you to limit your
-usage of Mattermost during the outage.
-
 ---
 
 ## Get Started
@@ -58,26 +50,22 @@ To install the Mattermost native client on your laptop, see the following instru
 
 ### Join Channels and Setup Notifications
 
-Once you're logged into Mattermost, the first thing you will need to do is to join channels and set up your notifications.
+Once you've logged in to Mattermost, the first thing you will need to do is to join channels and set up your notifications.
 Here are instructions to get you started with that:
 
 * [Channels and Notifications Setup](channels_notifications)
 
-### Migrate from IRC
+### Migrate to Mattermost from IRC & Slack
 
-If you're a current IRC user migrating to Mattermost, see [Migrating from IRC](migrating_from_irc)
+If you're migrating to Mattermost from IRC or Slack, see:
 
-* For a comparison of features between Mattermost, IRC, and other popular messaging platforms, see the [Feature Comparison](link)
-section.
+* [Migrating from IRC](migrating_from_irc)
+* [Migrating from Slack](migrating_from_slack)
 
-* For tips to make Mattermost look, feel, and operate more like IRC, see the [Make _Chat
-Platform_ Feel More Like IRC](link) section.
+### Mattermost Best Practices
 
-## Other Resources
+* For tips on using Mattermost from other users, see [Best Practices](best_practices).
 
-* See the [FAQs](faqs) for answers to common questions.
-* See [Best Practices](best_practices) for tips from other Mattermost users.
+---
 
-
-
-[back](./)
+[back]({{ site.url }}/)
