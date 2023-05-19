@@ -13,7 +13,7 @@ You might be my kind of company if you:
 * Are remote-first and properly support distributed employees financially and technologically
 * Compensate based on experience, not location
 * Support ongoing learning
-* Focus on creating real-world impact while also having and appreciating a sense of humor and fun
+* Focus on creating real-world impact while also having fun and a sense of humor
 
 ## More About Me
 
