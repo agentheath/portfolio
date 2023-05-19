@@ -6,23 +6,36 @@ layout: default
 
 ## Technical Writer | Documentation Engineer
 
+You might be my kind of company if you:
+
+* Hire independent and kind leaders
+* Believe that documentation is essential for all users
+* Are remote-first and properly support distributed employees financially and technologically
+* Compensate based on experience, not location
+* Support ongoing learning
+* Focus on creating real-world impact while also having and appreciating a sense of humor and fun
+
+## More About Me
+
 Versatile writer and editor proficient at translating technical, historical, and scientific subject matter into various kinds of content; from articles, blogs and social media campaigns to technical documentation, marketing copy and reference materials. Adept at working with SMEs to explain their work in clear and concise English. I have written for audiences ranging from kindergarteners to teams of professional developers and engineers.
 
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
 
-## Work Samples
+* [Resume](/assets/Heath%20Reinhard%20Resume.pdf)
+* [LinkedIn Profile](https://www.linkedin.com/in/heath-reinhard/)
 
-### Tech Writing Samples
+---
 
-* [Mattermost User Guide](./mattermost/)
-* [Mobile App Onboarding Guide]()
-* [Mobile App Governance Framework]()
-* [Meeting Recording Tool User Guide]()
-* [Bunnylol User Guide]()
-* [Bunnylol Dev Tutorials]()
-* [URL Shortener Guide]()
+## Samples of My Work
 
-### Published Writing
+### Tech Writing
+
+* [Mattermost Deployment](./mattermost/)
+* [Mobile App Governance Framework](./mobile_app/gov_framework)
+* [Meeting Recording Tool User Guide](meeting_recording_tool)
+* [URL Shortener User Guide](url_shortener)
+
+### Other Published Writing
 
 * [What Really Happened: Steve Jobs @ Xerox PARC '79](https://livingcomputers.org/Blog/What-Really-Happened-Steve-Jobs-@-Xerox-PARC-79.aspx)
 * [BASIC Ain’t Basic: Adapting Programs from One Vintage System to Another](https://livingcomputers.org/Blog/BASIC-Ain%E2%80%99t-Basic-Adapting-Programs-from-One-Vinta.aspx)
@@ -36,127 +49,10 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 ### Other Work
 
-* [Interview with Wes Cherry--Creator of Microsoft Solitaire](https://youtu.be/8ogWbomISP4)
+* [Video Interview with Wes Cherry - Creator of Microsoft Solitaire](https://youtu.be/8ogWbomISP4)
 
+---
 
-***
+## About this Site
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+This site was created with a docs-as-code workflow using Markdown, Git and GitHub, Jekyll, and VSCode.

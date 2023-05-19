@@ -53,11 +53,6 @@ _Our guiding principle is simple: we want to ensure apps created on _Mobile App_
 
 We have organized more detailed requirements for _Mobile App_ apps into the following categories: _Performance_, _Ownership_, _Design_, _Legal_, _Privacy_, and _Feed Cards_. Please see the [Detailed Checklist of Requirements for _Mobile App_ Apps](checklist) to assess whether your app meets these requirements. The same standards will be applied by the _Mobile App_ team when reviewing your app for publication to the platform.
 
-### ⇨ [Best Practices for _Mobile App_ App Development](mobile_app_best_practices)
-
-In order to assist you in making the best app possible, we have collected [Best Practices](mobile_app_best_practices) from _Mobile App_’s most successful apps. Please consider these practices when developing your app in order to ensure the best experience for our users.
-
-
 ## Review Process
 
 ### For New Apps
@@ -149,4 +144,6 @@ In extreme cases where a significant portion of _Mobile App_’s users are affec
 
 Apps that don't satisfy the requirements, don't follow coding conventions or fail to comply with any of our other requirements may be removed from the _Mobile App_ platform. If the app has a Product Owner and oncall, the _Mobile App_ team will attempt to reach out first. If it does not, the app can be removed without prior notice.
 
-[back](./)
+---
+
+[back]({{ site.url }}/)
