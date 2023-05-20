@@ -41,7 +41,7 @@ We drafted these guidelines to help you build successful apps that provide delig
 
 ### Guiding Principles
 
-_Our guiding principle is simple: we want to ensure apps created on _Mobile App_ are **consistent** in design, **performant**, **high quality**, and **provide delightful, mobile-first experiences** for our users. To that end, please consider the following when designing and developing apps for _Mobile App_:_
+_Our guiding principle is simple: we want to ensure apps created on Mobile App are **consistent** in design, **performant**, **high quality**, and **provide delightful, mobile-first experiences** for our users. To that end, please consider the following when designing and developing apps for Mobile App:_
 
 * **_Mobile App_ is best-suited for lightweight tools tailored for the mobile experience.** Apps requiring large screen real estate or heavy-duty work like extensive typing or coding are not suitable for _Mobile App_.
 * **Consider the value of having a _mobile_ app.** Don’t duplicate your web app. Mobile apps should compliment desktop apps to enhance overall productivity. Would this app serve your user’s needs just as well as a desktop app? Does it utilize mobile-specific features like push notifications or location services? Will _Company_mates need to access it while away from their desks?
@@ -92,7 +92,7 @@ Once all necessary reviews and checklists have been completed, your app will be 
 
 #### **5. Publish Launch Communication**
 
-As a final step, publish an awareness launch post in your dedicated Workplace Group that will be cross-posted to the [_Mobile App_ FYI group](https://fb.workplace.com/groups/mobile.home.fyi). Please use [this template for your launch announcement post](https://docs.google.com/document/d/16pF4CMcHOja9Fr2oakOnxkMmwi8O-M5mthap6_5xf4Y/copy).
+As a final step, publish an awareness launch post in your dedicated Workplace Group that will be cross-posted to the _Mobile App_ FYI group. Please use [this template for your launch announcement post]().
 
 ### Triggered Reviews of Existing Apps
 
@@ -101,7 +101,7 @@ _Apps on the _Mobile App_ platform are continuously monitored by the _Mobile App
 * **Declining usage:** Is usage of your app increasing, decreasing, or staying level? _A quarter over quarter decrease of Weekly Active People (WAP) by 30% or greater may trigger a review of your app._
 * **Excessive errors**: Apps that exhibit excessive errors may be reviewed. _A spike in the 7- or 30-day rolling average of the number of errors in your app may trigger a review._
 * **Bug resolution:** Is your app being actively maintained? Are bugs/feedback resolved in a timely manner? _Bugs and tasks filed for your app that are not viewed in a timely manner may trigger a review of your app._
-* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our [_Mobile App_ FYI](https://fb.workplace.com/groups/mobile.home.fyi) & [_Mobile App_ Feedback](https://fb.workplace.com/groups/mobile.home.feedback) Workplace groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the _Mobile App_ team._
+* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our [_Mobile App_ FYI]() & [_Mobile App_ Feedback]() groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the _Mobile App_ team._
 * **Lack of active ownership**: Apps on the _Mobile App_ platform are required to have active and responsive product ownership and support. _Apps that do not have an active product owner and oncall specified in the Product Catalog may be reviewed and considered for removal from the _Mobile App_ platform._
 
 > The _Mobile App_ team will reach out to your app’s listed owner and oncall with the results of our review and a list of needed changes before any further actions are taken.
@@ -115,35 +115,35 @@ _Apps on the _Mobile App_ platform are continuously monitored by the _Mobile App
 
 Prior to taking any action, the _Mobile App_ team will always reach out to the product owner. We will suggest improvements and collaborate with your team to address any issues identified. If there is no listed product owner, or if no response is received from your team, the _Mobile App_ team may remediate the issue by taking one or more of the actions below.
 
-### Escalation
+### 1. Escalation
 
 Before any action is taken, the _Mobile App_ team will reach out to your app’s listed Product Owner and oncall. If no response is received, the _Mobile App_ team will escalate up the reporting chain. If no owner is specified or cannot be located, the _Mobile App_ team reserves the right to take ownership of the app and perform actions as necessary.
 
 
-### Raise SEV
+### 2. Raise SEV
 
 For issues that significantly affect the _Mobile App_ user experience, the _Mobile App_ team may raise a SEV to draw attention to this issue until it is resolved.
 
 
-### Place a Warning Banner
+### 3. Place a Warning Banner
 
 If apps have lingering unresolved issues impacting the user experience, the _Mobile App_ team may place a banner at the top of the app warning users that there is an ongoing issue and their ability to use the app effectively may be compromised.
 
 
-### Reduce Discoverability
+### 4. Reduce Discoverability
 
 Apps that continue to not meet our requirements may be removed from the bottom toolbar and/or App Menu until effective remediation takes place.
 
 
-### Modify your App’s Code
+### 5. Modify your App’s Code
 
 In extreme cases where a significant portion of _Mobile App_’s users are affected and adequate responses have not been received from the app’s ownership, the _Mobile App_ team reserves the right to make any necessary modifications to your app’s code in order to preserve the integrity of the _Mobile App_ platform.
 
 
-### Removal from Platform
+### 6. Removal from Platform
 
 Apps that don't satisfy the requirements, don't follow coding conventions or fail to comply with any of our other requirements may be removed from the _Mobile App_ platform. If the app has a Product Owner and oncall, the _Mobile App_ team will attempt to reach out first. If it does not, the app can be removed without prior notice.
 
 ---
 
-[back](../)
+[back](./)

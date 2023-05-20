@@ -68,4 +68,4 @@ If you're migrating to Mattermost from IRC or Slack, see:
 
 ---
 
-[back](../)
+[back](/writing/writing)

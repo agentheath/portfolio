@@ -26,33 +26,10 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 ---
 
-## Samples of My Work
-
-### Tech Writing
-
-* [Mattermost Deployment](./mattermost/)
-* [Mobile App Governance Framework](./mobile_app/gov_framework)
-* [Meeting Recording Tool User Guide](meeting_recording_tool)
-* [URL Shortener User Guide](url_shortener)
-
-### Other Published Writing
-
-* [What Really Happened: Steve Jobs @ Xerox PARC '79](https://livingcomputers.org/Blog/What-Really-Happened-Steve-Jobs-@-Xerox-PARC-79.aspx)
-* [BASIC Ain’t Basic: Adapting Programs from One Vintage System to Another](https://livingcomputers.org/Blog/BASIC-Ain%E2%80%99t-Basic-Adapting-Programs-from-One-Vinta.aspx)
-* [Did You Know: Solitaire was Microsoft's Cherry on Top](https://livingcomputers.org/Blog/MS@45-Did-You-Know-Solitaire-was-Microsoft-s-cherr.aspx)
-* [Fun with Vintage Computers: Microsoft Adventure](https://livingcomputers.org/Blog/MS@45-Fun-with-Vintage-Computers-Microsoft-Adventu.aspx)
-* [The Oregon Trail in three classic versions](https://livingcomputers.org/Blog/Tour-Trailers-The-Oregon-Trail-in-three-classic-ve.aspx)
-* [Going Back to the Beginning with the Teletype Model 33 ASR](https://livingcomputers.org/Blog/MS@45-Artifact-Spotlight-Going-Back-to-the-Beg-(1).aspx)
-* [Parlez-Vous Parkour?](https://www.weightwatchers.com/templates/print.aspx?PageId=1378681&PrintFlag=yes&previewDate=8/25/2018)
-* [5 Questions with: NFL Great Jerome Bettis](https://www.weightwatchers.com/templates/print.aspx?PageId=1417011&PrintFlag=yes&previewDate=11/1/2019)
-* [What’s the Deal with Love Handles?](https://www.weightwatchers.com/templates/print.aspx?PageId=1356051&PrintFlag=yes&previewDate=4/1/2018)
-
-### Other Work
-
-* [Video Interview with Wes Cherry - Creator of Microsoft Solitaire](https://youtu.be/8ogWbomISP4)
+## [Samples of My Work](/writing/writing)
 
 ---
 
 ## About this Site
 
-This site was created with a docs-as-code workflow using Markdown, Git and GitHub, Jekyll, and VSCode.
+This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a docs-as-code workflow.

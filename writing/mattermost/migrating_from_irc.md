@@ -29,18 +29,6 @@ Matterbridge is also compatible with Gitter, XMPP, Slack, Discord, Telegram, Roc
 
 You can find more details and contribute to the [Matterbridge project on Github](https://github.com/42wim/matterbridge).
 
-## Bot support
-
-Currently we are using Matterbridge to relay bot commands to IRC and trigger Crushinator there. All Johnny5 and Pegasus notifications are posted to IRC channels and then relayed to Mattermost.
-
-For more info on Crushinator, see the [Crushinator Bot]() section.
-
-We are working on porting Crushinator to run natively in Mattermost.
-
-## IRC deprecation schedule
-
-Our team is working on porting Crushinator, Pegasus, and Johnny5 to Mattermost in H1 2022. We will start planning to sunset IRC after there are no more dependencies on IRC and we have proven Mattermost's reliability. There's no fixed timeline for IRC deprecation at the moment.
-
 ## Additional resources
 
 * [Comparison of the pros and cons of both IRC and Mattermost](https://www.slant.co/versus/4557/12763/~irc_vs_mattermost) (external link)
