@@ -33,3 +33,11 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 ## About this Site
 
 This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a docs-as-code workflow.
+
+### Todo
+
+- [ ] Fix "back" buttons
+- [ ] Add more copy to main page
+- [ ] Fill out project descriptions on /writing/writing
+- [ ] Add navigation
+{: style='list-style-type: none'}
