@@ -26,7 +26,7 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 ---
 
-## [Samples of My Work](/writing/writing)
+## [Samples of My Work](./writing/writing)
 
 ---
 
