@@ -15,7 +15,7 @@ The Mattermost app is deployed through MDM and preinstalled on all iOS and Andro
 
 1. The Mattermost app should be preinstalled on your mobile device. Tap the icon to launch the app.
 
-2. The server URL should be pre-populated. If it is not, enter: **[server URL]()** and tap connect.
+2. The server URL should be pre-populated. If it is not, enter: *[server URL]()* and tap connect.
 
 3. You will be prompted to login. Tap the **Office 365 button** to authenticate.
    NOTE: This step only applies to the case when you have not logged in to Office 365 in your mobile browser. If you have already logged in, the Office 365 authentication happens automatically and the browser redirects you back to Mattermost after the authentication is completed.

@@ -18,7 +18,7 @@ If you are an existing user migrating from IRC or Slack, check out:
 
 ## Set up the Web Client
 
-1. Access Mattermost via the following URL: [mattermost.com](https://mattermost.com)
+1. Access Mattermost via the following URL: [fakeurl.mattermost.com](https://mattermost.com)
 
 2. You'll be prompted to sign into Office 365. Click on the Office 365 button to initiate the SSO login.
     * You'll be prompted for your *username* and *password*. Your *username* is your *@company.com* email address.
