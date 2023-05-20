@@ -10,7 +10,6 @@ title: URL Shortener User Guide
 _URL Shortener_ is our internal URL shortener service.
 
 ---
-<br>
 
 ## Create a Short URL
 

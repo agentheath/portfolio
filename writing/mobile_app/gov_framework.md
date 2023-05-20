@@ -40,7 +40,6 @@ The _Mobile App_ platform allows you to quickly and reliably create mobile-tailo
 
 
 ---
-<br>
 
 ## _Mobile App_ App Guidelines
 
@@ -116,7 +115,6 @@ _Apps on the Mobile App platform are continuously monitored by the Mobile App te
 
 
 ---
-<br>
 
 ## Remediation
 
