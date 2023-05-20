@@ -7,6 +7,13 @@ title: Mobile App Detailed Checklist of App Requirements
 
 _The Mobile App team has compiled the following checklist of requirements for apps on the Mobile App platform. Compliance with these requirements ensures a consistent, reliable, and delightful experience for our users. Please use this checklist as you prepare to submit your app for publication to the Mobile App platform. The Mobile App team will use this same checklist to evaluate your app’s compliance with our requirements._
 
+---
+
+* toc
+{:toc}
+
+---
+
 ## Performance
 
 

@@ -5,6 +5,13 @@ title: Mobile App Governance Framework
 
 # _Mobile App_ Governance Framework
 
+---
+
+* toc
+{:toc}
+
+---
+
 ## Overview
 
 ### TL;DR
@@ -49,7 +56,7 @@ _Our guiding principle is simple: we want to ensure apps created on Mobile App a
 * **_Mobile App_ is only available to _Company_ FTEs.** _Mobile App_ is not available for visitors, contractors, or 3rd parties.
 * **Align your app with _Company_’s mission and values as well as company and org priorities.**
 
-### ⇨ [Detailed Checklist of Requirements for _Mobile App_ Apps](checklist)
+### [Detailed Checklist of Requirements for _Mobile App_ Apps](checklist)
 
 We have organized more detailed requirements for _Mobile App_ apps into the following categories: _Performance_, _Ownership_, _Design_, _Legal_, _Privacy_, and _Feed Cards_. Please see the [Detailed Checklist of Requirements for _Mobile App_ Apps](checklist) to assess whether your app meets these requirements. The same standards will be applied by the _Mobile App_ team when reviewing your app for publication to the platform.
 
@@ -59,9 +66,9 @@ We have organized more detailed requirements for _Mobile App_ apps into the foll
 
 #### **1. Intake**
 
-To publish an app to the _Mobile App_ platform, start by filling out our [App Submission Form](https://www.internalfb.com/butterfly/form/1238782843609754). Please do so as early as possible in your development/planning process so the _Mobile App_ team can provide guidance, feedback, and support.
+To publish an app to the _Mobile App_ platform, start by filling out our App Submission Form. Please do so as early as possible in your development/planning process so the _Mobile App_ team can provide guidance, feedback, and support.
 
-NOTE: If your team does not yet have some of the items requested in the form (Product Catalog or CodeHub entry, design docs, documentation, etc.) please submit this form anyway with as much information as you currently have. Additional items can be submitted to the _Mobile App_ team as you go through your app's development process.
+> If your team does not yet have some of the items requested in the form (Product Catalog or CodeHub entry, design docs, documentation, etc.) please submit this form anyway with as much information as you currently have. Additional items can be submitted to the _Mobile App_ team as you go through your app's development process.
 
 #### **2. XFN Review**
 
@@ -83,25 +90,25 @@ If your app doesn't currently meet all of the requirements, the _Mobile App_ tea
 #### **3. Publish to Test Sandbox**
 
 
-Once your app has passed all required reviews it will be published behind the GK for final _User Acceptance Testing_ by the _Mobile App_ team. Upon successful completion, the _Mobile App_ XFN team will give final approval for your app’s publication to the platform.
+Once your app has passed all required reviews it will be published behind the gatekeeper for final _User Acceptance Testing_ by the _Mobile App_ team. Upon successful completion, the _Mobile App_ XFN team will give final approval for your app’s publication to the platform.
 
 
 #### **4. App Published to _Mobile App_ Prod**
 
-Once all necessary reviews and checklists have been completed, your app will be published to the _Mobile App_ platform. Some apps may remain behind the GK for a phased rollout at the discretion of the _Mobile App_ team.
+Once all necessary reviews and checklists have been completed, your app will be published to the _Mobile App_ platform. Some apps may remain behind the gatekeeper for a phased rollout at the discretion of the _Mobile App_ team.
 
 #### **5. Publish Launch Communication**
 
-As a final step, publish an awareness launch post in your dedicated Workplace Group that will be cross-posted to the _Mobile App_ FYI group. Please use [this template for your launch announcement post]().
+As a final step, publish an awareness launch post in your dedicated group that will be cross-posted to the _Mobile App_ group. Please use [this template for your launch announcement post](link).
 
 ### Triggered Reviews of Existing Apps
 
-_Apps on the _Mobile App_ platform are continuously monitored by the _Mobile App_ team. Apps are monitored for usage, stability/performance, bug resolution, active ownership, and user feedback. Apps that fall outside the following thresholds may trigger a review:_
+_Apps on the Mobile App platform are continuously monitored by the Mobile App team. Apps are monitored for usage, stability/performance, bug resolution, active ownership, and user feedback. Apps that fall outside the following thresholds may trigger a review:_
 
 * **Declining usage:** Is usage of your app increasing, decreasing, or staying level? _A quarter over quarter decrease of Weekly Active People (WAP) by 30% or greater may trigger a review of your app._
 * **Excessive errors**: Apps that exhibit excessive errors may be reviewed. _A spike in the 7- or 30-day rolling average of the number of errors in your app may trigger a review._
 * **Bug resolution:** Is your app being actively maintained? Are bugs/feedback resolved in a timely manner? _Bugs and tasks filed for your app that are not viewed in a timely manner may trigger a review of your app._
-* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our [_Mobile App_ FYI]() & [_Mobile App_ Feedback]() groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the _Mobile App_ team._
+* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our _Mobile App_ groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the _Mobile App_ team._
 * **Lack of active ownership**: Apps on the _Mobile App_ platform are required to have active and responsive product ownership and support. _Apps that do not have an active product owner and oncall specified in the Product Catalog may be reviewed and considered for removal from the _Mobile App_ platform._
 
 > The _Mobile App_ team will reach out to your app’s listed owner and oncall with the results of our review and a list of needed changes before any further actions are taken.

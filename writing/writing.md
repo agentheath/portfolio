@@ -5,9 +5,12 @@ title: Writing Samples
 
 # Writing Samples
 ## Tech Writing
+
+> All identifying details and proprietary information have been changed or omitted in the following samples.
+
 ### Mattermost
 
-Mattermost is an open-source communications/chat platform modeled after Slack. I wrote docs to aid the deployment at scale of an internal instance of Mattermost meant to serve as a back-up communications platform and remediation tool in case of an infra outage.
+Mattermost is an open-source communications/chat platform modeled after Slack. I wrote docs to aid the deployment at scale of an internally-hosted instance of Mattermost meant to serve as a back-up communications platform and remediation tool in case of an internal infrastructure outage.
 * [Mattermost User Guide](./mattermost)
 
 ### _Meeting Recording Tool_
@@ -17,12 +20,12 @@ _Meeting Recording Tool_ is an internal tool for recording and streaming VCs fro
 
 ### _Mobile App_ Governance Framework
 
-_Mobile App_ is...
+_Mobile App_ is a fictionalized version of an internal company mobile app platform I worked on. Other internal company product teams could leverage the _Mobile App_ platform to quickly ship mobile versions of widely-used internal tools. In parnership with Product Managers, Product Designers, UX Researchers, Data Engineers, Software Engineers, and Management, I led the development of a Governance Framework to improve the consistency and quality of the constituent apps hosted on the platform.
 * [_Mobile App_ Governance Framework](./mobile_app/gov_framework)
 * [Detailed Checklist of App Requirements](./mobile_app/checklist)
 
 ### _URL Shortener_
-Lorem ipsum...
+_URL Shortener_ is based on--you guessed it!--an internal URL shortening tool.
 * [_URL Shortener_ User Guide](./url_shortener)
 
 ## Other Published Writing

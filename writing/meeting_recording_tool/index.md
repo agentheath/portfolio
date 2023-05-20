@@ -5,6 +5,13 @@ title: Meeting Recording Tool User Guide
 
 # _Meeting Recording Tool_ User Guide
 
+---
+
+* toc
+{:toc}
+
+---
+
 ## Overview
 
 _Meeting Recording Tool_ is the _Company_-approved solution for streaming and recording meetings. Use _Meeting Recording Tool_ to stream Workrooms or Zoom meetings directly to a Workplace group. After your meeting or event, the recording will be available for viewing in that Workplace group.
@@ -12,6 +19,8 @@ _Meeting Recording Tool_ is the _Company_-approved solution for streaming and re
 Recorded meetings can be scheduled in advance using either the _Meeting Recording Tool_ UI or the Calendar tool. Or you can use _Meeting Recording Tool_ to stream and record a meeting already in-progress.
 
 _Meeting Recording Tool_ is for conferences, meetings, and trainings to be recorded and shared with other employees for later viewing. Please use good judgement when using _Meeting Recording Tool_ and consult with legal in advance if you need to record sensitive materials or discussion topics.
+
+---
 
 ## How to Schedule a Meeting Recording in Advance
 
@@ -48,7 +57,7 @@ Congrats, you've scheduled your event! You will be taken back to the _Meeting Re
 * **Copy Workrooms or Zoom links for your event**
 * **Copy the Workplace event link where your event can be viewed**
 
-### Streaming & Recording an Event from the Calendar Tool
+### Using the Calendar Tool
 
 You can enable streaming and recording of meetings and events directly from the Calendar tool.
 
@@ -65,7 +74,6 @@ You can also access the Live Control interface directly from the Calendar entry 
 IMPORTANT: **Even if you scheduled it in the Calendar tool, your stream will not start automatically**. You will need to manually start and stop the stream from the Live Control interface due to _Company_ policy requirements.
 
 ---
-<br>
 
 ## How to Record a Meeting Already In-Progress
 

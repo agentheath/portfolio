@@ -8,9 +8,10 @@ layout: default
 
 You might be my kind of company if you:
 
-* Hire independent and kind leaders
-* Believe that documentation is essential for all users
+* Hire talented people and empower them to solve problems both collaboratively and autonomously
+* Believe that documentation is a powerful tool for enabling engineering productivity and velocity at scale
 * Are remote-first and properly support distributed employees financially and technologically
+* Lean into using generative AI tools to augment documentation workflows
 * Compensate based on experience, not location
 * Support ongoing learning
 * Focus on creating real-world impact while also having fun and a sense of humor
@@ -40,4 +41,5 @@ This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a 
 - [ ] Add more copy to main page
 - [ ] Fill out project descriptions on /writing/writing
 - [ ] Add navigation
+- [ ] Fictionalize samples more
 {: style='list-style-type: none'}
