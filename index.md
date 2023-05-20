@@ -4,7 +4,7 @@ layout: default
 
 # Heath Reinhard's Portfolio
 
-## Technical Writer | Documentation Engineer
+## Technical Writer | Editor
 
 You might be my kind of company if you:
 
