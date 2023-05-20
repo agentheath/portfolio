@@ -21,7 +21,7 @@ Versatile writer and editor proficient at translating technical, historical, and
 
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
 
-* [Resume](/assets/Heath%20Reinhard%20Resume.pdf)
+* [Resume](./assets/Heath%20Reinhard%20Resume.pdf)
 * [LinkedIn Profile](https://www.linkedin.com/in/heath-reinhard/)
 
 ---
