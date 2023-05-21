@@ -23,7 +23,7 @@ Versatile writer and editor proficient at translating technical, historical, and
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
 -->
 
-![](./assets/img/about_me_blurb.png)
+![](./assets/img/about_me_light.png)
 
 ---
 
