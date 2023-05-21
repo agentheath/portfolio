@@ -5,7 +5,7 @@ layout: default
 # Heath Reinhard's Portfolio
 
 ## Technical Writer | Editor
-
+<!--
 You might be my kind of company if you:
 
 * Hire talented people and empower them to solve problems both collaboratively and autonomously
@@ -21,7 +21,7 @@ You might be my kind of company if you:
 Versatile writer and editor proficient at translating technical, historical, and scientific subject matter into various kinds of content; from articles, blogs and social media campaigns to technical documentation, marketing copy and reference materials. Adept at working with SMEs to explain their work in clear and concise English. I have written for audiences ranging from kindergarteners to teams of professional developers and engineers.
 
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
-
+-->
 * [Resume](./assets/Heath%20Reinhard%20Resume.pdf)
 * [LinkedIn Profile](https://www.linkedin.com/in/heath-reinhard/)
 

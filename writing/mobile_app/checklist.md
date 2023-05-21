@@ -88,6 +88,4 @@ _Feed cards allow apps to show dynamic and relevant content on the Mobile App ho
 - [ ] Does your feedcard comply with our data access guidelines? When feedcards are toggled off by the user or don’t need to be visible, they should not be querying data.
 {: style='list-style-type: none'}
 
----
-
 [back](./)

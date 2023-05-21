@@ -24,6 +24,4 @@ The Mattermost app is deployed through MDM and preinstalled on all iOS and Andro
 
 5. Tap **Open** and Mattermost should launch and display the *ALL FYI* channel. This is a public channel for all employees. Say hello!
 
----
-
 [back](./)

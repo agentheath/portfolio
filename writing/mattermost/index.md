@@ -66,6 +66,4 @@ If you're migrating to Mattermost from IRC or Slack, see:
 
 * For tips on using Mattermost from other users, see [Best Practices](best_practices).
 
----
-
 [back](/writing/writing)

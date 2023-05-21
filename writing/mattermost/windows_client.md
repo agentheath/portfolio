@@ -19,6 +19,4 @@ title: Mattermost Windows Client
 
 7. Follow the instructions in the [Channels and Notifications](channels_notifications) section to join and create channels.
 
----
-
 [back](./)

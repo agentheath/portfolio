@@ -44,6 +44,4 @@ _URL Shortener_ is based on--you guessed it!--an internal URL shortening tool.
 
 * [Video Interview with Wes Cherry - Creator of Microsoft Solitaire](https://youtu.be/8ogWbomISP4)
 
----
-
 [Back]({{ site.url }}/)

@@ -23,6 +23,4 @@ This section is for Slack users migrating to Mattermost. It contains information
 
 Matterbridge was used for testing (1 channel only) during the Mattermost proof-of-concept phase, and will not be a permanent solution for replicating data from Slack IG to Mattermost. Instead, data from Slack will be exported and imported into Mattermost to bridge as the former is deprecated.
 
----
-
 [back](./)

@@ -89,6 +89,4 @@ This section is for users who want to stream and record a meeting _already in-pr
 1. Enter the meeting URL in the _Meeting URL_ field.
 1. Click _Next_ to be taken to the **Live Control UI** where you can start and stop your Live Event.
 
----
-
 [back](./)
