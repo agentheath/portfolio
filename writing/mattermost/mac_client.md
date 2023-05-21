@@ -17,4 +17,6 @@ The Mattermost desktop client is available for installation through your **Manag
 
 5. From here, follow the instructions in the [Channels and Notifications setup](channels_notifications) section to join and create channels.
 
+---
+
 [back](./)

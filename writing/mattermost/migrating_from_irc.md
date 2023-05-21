@@ -33,4 +33,6 @@ You can find more details and contribute to the [Matterbridge project on Github]
 
 * [Comparison of the pros and cons of both IRC and Mattermost](https://www.slant.co/versus/4557/12763/~irc_vs_mattermost) (external link)
 
+---
+
 [back](./)
