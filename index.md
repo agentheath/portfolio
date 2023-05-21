@@ -42,8 +42,7 @@ This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a 
 ### Todo
 
 - [ ] Fix "back" buttons
-- [ ] Add more copy to main page
-- [x] Fill out project descriptions on /writing/writing
-- [ ] Add navigation
-- [ ] Fictionalize samples more
+- [x] Add more copy to main page
+- [x] Fill out project descriptions
+- [x] Fictionalize samples more
 {: style='list-style-type: none'}

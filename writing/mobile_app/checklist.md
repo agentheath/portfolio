@@ -28,7 +28,7 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 
 
 - [ ] Does your app have an entry in the Product Catalog (separate from the desktop version) which lists at least the following: _Product Owner, Oncall, Engineering Manager,_ and _Description_?
-- [ ] Can users quickly get help from either your oncalls, a Workplace group, or self-service documentation?
+- [ ] Can users quickly get help from either your oncalls, a group, or self-service documentation?
 - [ ] Is there documentation specific to this mobile app? (separate from docs for desktop app) _Note: some very simple apps may be exempted from this requirement._
 {: style='list-style-type: none'}
 
@@ -36,11 +36,12 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 
 
 
-- [ ] Does your app use MHDS (XDS Mobile) and follow the guidance/standards outlined in the [dimsum](https://www.internalfb.com/dimsum/xds/mhds-for-engineers)? Does your app support the following critical accessibility features?
+- [ ] Does your app use our internal design specifications?
+- [ ] Does your app support the following critical accessibility features?
     - [ ] Text legibility
     - [ ] Color contrast
     - [ ] Touch targets
-    - [ ] Dark mode support
+    - [ ] Dark mode
     {: style='list-style-type: none'}
 - [ ] Is your app properly formatted for mobile screen sizes?
     - [ ] No excessive horizontal scrolling
@@ -50,13 +51,10 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 - [ ] Does your app have clear user navigation and task completion flows?
 - [ ] Does your app have clear feedback mechanisms that keep users informed as they interact with the app? _Example: When a user makes an edit on a form they should see the edit reflected._
 - [ ] Does your app provide a readily-accessible description?
-- [ ] Is your app built using React Native? Avoid iFrame/WebApps. If the app links out to a webpage consider having it sent to the OS browser (Safari, Chrome) which has accessibility tools built-in.
-- [ ] Does it adhere to accessibility guidelines? Have you completed a review with the a11y team?
-    - [ ] [Mobile Web Accessibility Guidelines](https://www.internalfb.com/intern/wiki/Accessibility-on-web/mobile-web/)
-    - [ ] [Minimum Viable Accessibility](https://www.internalfb.com/intern/wiki/AccessibilityGuide/minimum-viable-accessibility/)
+- [ ] Does it adhere to accessibility guidelines?
     - [ ] Can the user complete tasks in your app using a screen reader?
     {: style='list-style-type: none'}
-- [ ] Does your app support both iOS and Android? _Note: Apps should support both iOS and Android. Some exceptions can be made if concurrent development across both platforms is not currently feasible for your team. Please reach out to the Mobile App team to discuss further._
+- [ ] Does your app support both iOS and Android?
 {: style='list-style-type: none'}
 
 ## Legal
@@ -70,7 +68,7 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 
 
 
-- [ ] Has your app undergone a privacy review? (e.g.: location, GDPR, CA Privacy etc.) (Estimated time to complete: 7-12 weeks)
+- [ ] Has your app undergone a privacy review?
 {: style='list-style-type: none'}
 
 ## Feed Cards
@@ -81,7 +79,7 @@ _Feed cards allow apps to show dynamic and relevant content on the Mobile App ho
 
 - [ ] Does the feed card surface meaningful, relevant, and timely information to users?
 - [ ] Does the feed card have small digestible chunks of information that the user can understand and/or take action upon?
-- [ ] Has your feed card design been approved by the Mobile App Product Designer?
+- [ ] Has your feed card design been approved by the _Mobile App_ Product Designer?
 - [ ] Has the Mobile App team reviewed the ranking and display time of your feed card?
 - [ ] Does your feed card load data quickly? Feed cards that impact the performance of the home page will not be allowed.
 - [ ] Can users easily disable or dismiss your feed card when appropriate?

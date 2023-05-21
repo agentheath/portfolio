@@ -23,7 +23,7 @@ There are several different ways to generate a short URL.
 
 ### Create a Short URL with a Custom URL (stringkey)
 
-This will create an URL in the format ```url-shortener.com/<custom stringkey>```. These are much easier to remember than randomized URLS.
+Create an URL in the format ```url-shortener.com/<custom stringkey>```. These are much easier to remember than randomized URLS.
 
 1. Go to the _URL Shortener_ homepage.
 1. Enter the URL that you'd like to shorten in the **Full Url** field.
@@ -33,20 +33,20 @@ This will create an URL in the format ```url-shortener.com/<custom stringkey>```
 
 ### Create a Short URL with the Right-Click Menu
 
-If you have the _Internal New Tab extension_ installed, you can quickly generate a shortened URL with the _right-click menu_.
+Quickly generate a shortened URL with the _right-click menu_.
 
-1. _Right-click_ the link you want to shorten, select "Internal New Tab", and then select **Copy URL for the link**. This generates a new URL for the link you clicked on and copies it to your clipboard.
+1. _Right-click_ the link you want to shorten and select **Copy URL for the link**. This generates a new URL for the link you clicked on and copies it to your clipboard.
 
 ### Create a Short URL with the _URL Shortener_ Browser Extension
 
-If you have the _URL Shortener_ browser extension installed, you can generate a URL for the current page you are on and copy it to your clipboard with one click.
+Generate a URL for the current page you are on and copy it to your clipboard with one click. To do this you need to have the _URL Shortener_ browser extension installed.
 
 1. Navigate to the page you wish to generate a URL for.
 1. In the extensions section of your browser's address bar (upper-right corner), click the _link_ icon. This will generate a URL for the current page and copy it to your clipboard.
 
 ### Create a Short URL with a Keyboard Shortcut
 
-For ultra-fast shortened URL creation, you can set a keyboard shortcut to generate a short URL and copy it to your clipboard. To do this you need to have the _URL Shortener_ browser extension installed.
+Set a keyboard shortcut to generate a short URL and copy it to your clipboard. To do this you need to have the _URL Shortener_ browser extension installed.
 
 1. In your Chrome address bar, enter ```chrome://extensions/shortcuts```.
 1. Find the _URL Shortener_ extension on this page.
