@@ -11,20 +11,21 @@ Mattermost is an open-source, externally-hosted messaging platform that is model
 well as functionality. Mattermost offers a mature platform for self-hosting, resiliency in case of infra failures or
 outages, and a near-zero configuration setup with simple-to-use clients for web and mobile devices.
 
-Since Mattermost is externally hosted and largely independent of our production technology and infrastructure, it is an
-essential communications resource during outages and site events. Users can communicate with each other privately or in easily-created public or private group chats called *channels*.
+Since Mattermost is externally hosted on AWS and largely independent of our production technology and infra, it is an
+essential communications resource during outages and SEVs. Users can communicate with each other privately or in easily-created
+public or private group chats called *channels*.
 
 ### Who is Mattermost for?
 
 It is available to all _Company_ employees! It is essential for oncalls, production engineers, incident managers, and others
 involved in Incident Management and Response. All _Company_ employees can use Mattermost as a fallback communications
-platform in the event of major infrastructure failures and outages.
+platform in the event of major infra failures or outages.
 
 ---
 
 ## Get Started
 
-This section has instructions for users who want to log in to Mattermost for the first time and set up Mattermost apps
+This section has instructions for users who want to login to Mattermost for the first time and set up Mattermost apps
 on their laptop and mobile device.
 
 ### Mattermost Setup: Web Client
@@ -35,7 +36,7 @@ The easiest way to get started with Mattermost is by using the in-browser web cl
 
 ### Mattermost Setup: Mobile
 
-Your _Company_-issued mobile device comes with the Mattermost app pre-installed. Here are instructions for setting that up:
+Your _Company_-issued mobile device comes pre-installed with the Mattermost app. Here are instructions for setting that up:
 
 * [Mobile App Setup](mobile_app)
 

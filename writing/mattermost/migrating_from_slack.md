@@ -17,7 +17,7 @@ This section is for Slack users migrating to Mattermost. It contains information
 
 ## What's different
 
-* **No intern dependencies**: Our deployment of Mattermost is externally hosted. Mattermost has minimal dependence on our internal infrastructure. Even in the event of an outage that takes down all internal infrastructure, Mattermost should remain up and running. Our bots are the exception to this since they depend on internal servers. Unlike with Slack's 3rd-party hosting, Mattermost gives _Company_ more control over our own data as Mattermost instances are self-hosted.
+* **No intern dependencies**: Our deployment of Mattermost is hosted on AWS with SSO via Azure. Mattermost has minimal dependence on our internal infrastructure. Even in the event of a SEV0 that takes down all infra, Mattermost should remain up and running. Our bots are the exception to this since they depend on internal servers. Unlike with Slack's 3rd-party hosting, Mattermost gives _Company_ more control over our own data as Mattermost instances are self-hosted.
 
 ## Matterbridge
 

@@ -127,7 +127,7 @@ Before any action is taken, the _Mobile App_ team will reach out to your app’s
 
 ### 2. Raise SEV
 
-For issues that significantly affect the _Mobile App_ user experience, the _Mobile App_ team may raise a Site Event to draw attention to this issue until it is resolved.
+For issues that significantly affect the _Mobile App_ user experience, the _Mobile App_ team may raise a SEV to draw attention to this issue until it is resolved.
 
 
 ### 3. Place a Warning Banner
