@@ -9,6 +9,4 @@ title: Mattermost Linux Client
 
 2. Then follow the instructions in the [Channels and Notifications](channels_notifications) section to log in and join channels.
 
----
-
 [back](./)

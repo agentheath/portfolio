@@ -30,6 +30,4 @@ If you are an existing user migrating from IRC or Slack, check out:
 
 5. You should now see the Mattermost start page. Congrats! You're in! Now you need to set up your [channels and notifications](channels_notifications).
 
----
-
 [back](./)

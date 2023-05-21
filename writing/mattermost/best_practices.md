@@ -47,6 +47,4 @@ This is a channel-based role that is assigned to the person who creates a channe
 * Remove the Channel Admin role from other holders of the Channel Admin role
 * Remove members from the channel
 
----
-
 [back](./)
