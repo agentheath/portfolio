@@ -15,7 +15,7 @@ Once a channel is muted:
 
 * A mute icon displays next to the channel name.
 
-* The channel appears at reduced opacity in the channel sidebar, and the channel isn’t marked as unread unless you’re mentioned directly.
+* The channel name appears at reduced opacity in the channel sidebar, and the channel isn’t marked as unread unless you’re mentioned directly.
 
 To unmute the channel, select the channel name again to access the drop-down menu, then select Unmute Channel.
 
@@ -25,11 +25,11 @@ Favoriting channels is a great way to organize your channel sidebar. Favorite ch
 
 To mark a channel as a favorite, open the channel and select the star icon next to the channel name.
 
-This adds the channel to a Favorites list at the top of the left sidebar so it’s easy to access. To remove a channel from the Favorites list, select the star again.
+This adds the channel to the Favorites list at the top of the left sidebar. To remove a channel from the Favorites list, select the star icon again.
 
 ## Notifications
 
-If your feed is swamped with join notifications you can suppress these notifications. Click the gear icon in the upper-right corner, select **Advanced**, and turn **Enable Join/Leave messages** off.
+If your feed is swamped with join notifications, you can suppress these notifications. Click the gear icon in the upper-right corner, select **Advanced**, and turn **Enable Join/Leave messages** off.
 
 ## Permissions and User Types
 

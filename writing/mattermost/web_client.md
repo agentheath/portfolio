@@ -12,19 +12,18 @@ For instructions on installing native apps on your desktop or laptop go to:
 * [Windows Client Setup](windows_client)
 * [Linux Client Setup](linux_client)
 
-If you are an existing user migrating from IRC or Slack, check out:
+If you are an existing user migrating from IRC, check out:
 * [Migrating from IRC](migrating_from_irc)
-* [Migrating from Slack](migrating_from_slack)
 
 ## Set up the Web Client
 
 1. Access Mattermost via the following URL: [mattermost.com](https://mattermost.com)
 
-2. You'll be prompted to sign into Office 365. Click on the Office 365 button to initiate the SSO login.
+2. You'll be prompted to sign into _SSO Service_. Click on the _SSO Service_ button to initiate the SSO login.
     * You'll be prompted for your *username* and *password*. Your *username* is your *@company.com* email address.
     * Your *password* is the same password that you use to log in to your laptop.
 
-3. You'll then be prompted for 2-factor authentication. You can do so via the YubiKey USB device in your laptop or the Duo app on your work phone.
+3. You'll then be prompted for 2-factor authentication. You can do so via your hardware authentication device in your laptop or the Google app on your work phone.
 
 4. You'll then be prompted to join a team. Join the *Company* team by clicking the arrow pointing right.
 
