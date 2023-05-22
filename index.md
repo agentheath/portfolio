@@ -23,15 +23,15 @@ Versatile writer and editor proficient at translating technical, historical, and
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
 -->
 
-![](./assets/img/about_me_light.png)
+![](/assets/img/about_me_light.png)
 
 ---
 
 ## Professional Stuff
 
-* [Samples of My Work](./writing/writing)
-* [Resume](./assets/Heath%20Reinhard%20Resume.pdf)
-* [LinkedIn Profile](https://www.linkedin.com/in/heath-reinhard/)
+* [Samples of My Work](/writing/)
+* [Resume](/assets/Heath%20Reinhard%20Resume.pdf)
+* [LinkedIn](https://www.linkedin.com/in/heath-reinhard/)
 
 ---
 
@@ -39,10 +39,12 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a docs-as-code workflow.
 
+<!--
 ### Todo
 
-- [ ] Fix "back" buttons
+- [x] Fix "back" buttons
 - [x] Add more copy to main page
 - [x] Fill out project descriptions
 - [x] Fictionalize samples more
 {: style='list-style-type: none'}
+-->

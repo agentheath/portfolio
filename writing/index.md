@@ -28,7 +28,7 @@ _Mobile App_ is a fictionalized version of an internal company mobile app platfo
 _URL Shortener_ is based on--you guessed it!--an internal URL shortening tool.
 * [_URL Shortener_ User Guide](./url_shortener)
 
-## Other Published Writing
+## Other Published Writing (external links)
 
 * [What Really Happened: Steve Jobs @ Xerox PARC '79](https://livingcomputers.org/Blog/What-Really-Happened-Steve-Jobs-@-Xerox-PARC-79.aspx)
 * [BASIC Ain’t Basic: Adapting Programs from One Vintage System to Another](https://livingcomputers.org/Blog/BASIC-Ain%E2%80%99t-Basic-Adapting-Programs-from-One-Vinta.aspx)
@@ -44,4 +44,8 @@ _URL Shortener_ is based on--you guessed it!--an internal URL shortening tool.
 
 * [Video Interview with Wes Cherry - Creator of Microsoft Solitaire](https://youtu.be/8ogWbomISP4)
 
-[Back]({{ site.url }}/)
+[back](../)
+
+<!--
+[back]({{ site.url }}/)
+-->

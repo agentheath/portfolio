@@ -52,4 +52,4 @@ Set a keyboard shortcut to generate a short URL and copy it to your clipboard. T
 1. Find the _URL Shortener_ extension on this page.
 1. The field for _Activate the extension_ should say "_Not set_." Click the _pencil icon_ to edit the field. Enter the keyboard shortcut you'd like to use.
 
-[back](./)
+[back](../)

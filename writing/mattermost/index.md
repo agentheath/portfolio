@@ -65,4 +65,7 @@ If you're migrating to Mattermost from IRC, see:
 
 * For tips on using Mattermost from other users, see [Best Practices](best_practices).
 
+[back](../)
+<!--
 [back](/writing/writing)
+-->

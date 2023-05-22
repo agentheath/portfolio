@@ -148,4 +148,4 @@ In extreme cases where a significant portion of _Mobile App_’s users are affec
 Apps that don't satisfy the requirements, don't follow coding conventions or fail to comply with any of our other requirements may be removed from the _Mobile App_ platform. If the app has a Product Owner and oncall, the _Mobile App_ team will attempt to reach out first. If it does not, the app can be removed without prior notice.
 -->
 
-[back](./)
+[back](../)
