@@ -72,8 +72,6 @@ To publish an app to the _Mobile App_ platform, start by filling out our App Sub
 
 App submissions will be reviewed by the _Mobile App_ XFN team including but not limited to:
 
-
-
 * Product Manager
 * Engineering Manager
 * Lead Engineer
@@ -106,8 +104,8 @@ _Apps on the Mobile App platform are continuously monitored by the Mobile App te
 * **Declining usage:** Is usage of your app increasing, decreasing, or staying level? _A quarter over quarter decrease of Weekly Active People (WAP) by 30% or greater may trigger a review of your app._
 * **Excessive errors**: Apps that exhibit excessive errors may be reviewed. _A spike in the 7- or 30-day rolling average of the number of errors in your app may trigger a review._
 * **Bug resolution:** Is your app being actively maintained? Are bugs/feedback resolved in a timely manner? _Bugs and tasks filed for your app that are not viewed in a timely manner may trigger a review of your app._
-* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our _Mobile App_ groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the _Mobile App_ team._
-* **Lack of active ownership**: Apps on the _Mobile App_ platform are required to have active and responsive product ownership and support. _Apps that do not have an active product owner and oncall may be reviewed and considered for removal from the _Mobile App_ platform._
+* **Negative user feedback:** The _Mobile App_ team monitors user feedback submitted through the app’s bug reporting function as well as in our _Mobile App_ groups. _A significant amount of unresolved user feedback or feedback reflecting a severe impact on the user experience may trigger a review by the Mobile App team._
+* **Lack of active ownership**: Apps on the _Mobile App_ platform are required to have active and responsive product ownership and support. _Apps that do not have an active product owner and oncall may be reviewed and considered for removal from the Mobile App platform._
 
 > The _Mobile App_ team will reach out to your app’s listed owner and oncall with the results of our review and a list of needed changes before any further actions are taken.
 
