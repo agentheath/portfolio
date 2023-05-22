@@ -112,7 +112,8 @@ _Apps on the Mobile App platform are continuously monitored by the Mobile App te
 > The _Mobile App_ team will reach out to your app’s listed owner and oncall with the results of our review and a list of needed changes before any further actions are taken.
 
 
-<!-->
+<!--
+
 ---
 
 ## Remediation
