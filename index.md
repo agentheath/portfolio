@@ -29,8 +29,8 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 
 ## Professional Stuff
 
-* [Samples of My Work](/writing/)
-* [Resume](/assets/Heath%20Reinhard%20Resume.pdf)
+* [Samples of My Work](./writing/)
+* [Resume](./assets/Heath%20Reinhard%20Resume.pdf)
 * [LinkedIn](https://www.linkedin.com/in/heath-reinhard/)
 
 ---
