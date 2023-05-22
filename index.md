@@ -46,5 +46,6 @@ This site was created with Markdown, Git and GitHub, Jekyll, and VSCode using a 
 - [x] Add more copy to main page
 - [x] Fill out project descriptions
 - [x] Fictionalize samples more
+- [ ] Add "How I created this site" sample doc
 {: style='list-style-type: none'}
 -->
