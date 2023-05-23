@@ -5,6 +5,7 @@ layout: default
 # Heath Reinhard's Portfolio
 
 ## Technical Writer | Editor
+
 <!--
 You might be my kind of company if you:
 
@@ -23,15 +24,15 @@ Versatile writer and editor proficient at translating technical, historical, and
 I have a passion for brevity and an obsession with eliminating superfluous commas wherever I find them.
 -->
 
-![](/assets/img/about_me_light.png)
+* [Samples of my work](./writing/)
+* <a href="./assets/Heath%20Reinhard%20Resume.pdf" target="_blank">Resume</a>
+* [LinkedIn](https://www.linkedin.com/in/heath-reinhard/)
 
 ---
 
-## Professional Stuff
+## About Me
 
-* [Samples of My Work](./writing/)
-* <a href="./assets/Heath%20Reinhard%20Resume.pdf" target="_blank">Resume</a>
-* [LinkedIn](https://www.linkedin.com/in/heath-reinhard/)
+![](/assets/img/about_me_light.png)
 
 ---
 
