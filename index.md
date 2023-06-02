@@ -28,7 +28,7 @@ I have a passion for brevity and an obsession with eliminating superfluous comma
 * <a href="./assets/Heath%20Reinhard%20Resume.pdf" target="_blank">Resume</a>
 * [LinkedIn](https://www.linkedin.com/in/heath-reinhard/)
 
-If you think I might be the right fit for your organization, [get in touch!](mailto:heath.reinhard@gmail.com)
+If you think I might be the right fit for your organization, [get in touch!](mailto:heath.reinhard@gmail.com){:target="_blank"}
 
 ---
 
