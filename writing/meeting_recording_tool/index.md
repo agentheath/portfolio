@@ -22,7 +22,7 @@ _Meeting Recording Tool_ is for conferences, meetings, and trainings to be recor
 
 ---
 
-## How to Schedule a Meeting Recording in Advance
+## Scheduling a Meeting Recording in Advance
 
 This section is for users who want to schedule a meeting or event to be recorded and streamed _in advance_. Events can be scheduled using the _Meeting Recording Tool_ UI or directly from the calendar tool.
 
@@ -67,7 +67,7 @@ You can also access the Live Control interface directly from the Calendar entry 
 
 > IMPORTANT: **Even if you scheduled it in the Calendar tool, your stream will not start automatically**. You will need to manually start and stop the stream from the Live Control interface due to _Company_ policy requirements.
 
-## How to Record a Meeting Already In-Progress
+## Recording a Meeting Already In-Progress
 
 This section is for users who want to stream and record a meeting _already in-progress_.
 
