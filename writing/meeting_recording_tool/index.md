@@ -76,7 +76,7 @@ This section is for users who want to stream and record a meeting _already in-pr
 1. In the box that appears, enter a title for your event.
 1. In the _Event Type_ field, select whether this event is a _meeting_ or a _training_.
 1. In the _Share To_ field, enter the name of the group where your event will be streamed.
-1. Select whether you are usingor **Zoom** or another option for this event.
+1. Select whether you are using **Zoom** or another option for this event.
 1. _If your meeting is already in-progress_, click the toggle for _Use my own meeting link_.
 1. Enter the meeting URL in the _Meeting URL_ field.
 1. Click _Next_ to be taken to the **Live Control UI** where you can start and stop your livestream.
