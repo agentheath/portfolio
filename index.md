@@ -11,7 +11,7 @@ You might be my kind of company if you:
 * Hire talented people and empower them to solve problems both collaboratively and autonomously
 * Believe that documentation is a powerful tool for enabling engineering productivity and velocity at scale
 * Are remote-first and properly support distributed employees financially and technologically
-* Are rigorous about using data to drive decision-making
+* Drive decision-making with data and metrics
 * Have a strong culture of learning and growth
 * Lean into using generative AI tools to augment documentation workflows
 * Focus on creating real-world impact while also having fun and a sense of humor
