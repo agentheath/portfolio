@@ -15,6 +15,7 @@ You might be my kind of company if you:
 * Have a strong culture of learning and growth
 * Lean into using generative AI tools to augment documentation workflows
 * Focus on creating real-world impact while also having fun and a sense of humor
+
 <!--
 * Compensate based on experience, not location
 -->
