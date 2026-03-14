@@ -97,6 +97,67 @@ const base = import.meta.env.BASE_URL;
       </div>
     </section>
 
+    <!-- Developer Education -->
+    <section id="developer-education" class="mb-20">
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3L2 8L12 13L22 8L12 3Z" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 8V16" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M6 10.5V17C6 17 8 19 12 19C16 19 18 17 18 17V10.5" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+          Developer Education: From Skeptic to Builder
+        </h2>
+      </div>
+
+      <div class="max-w-3xl">
+        <p class="mb-6" style="color: var(--color-text-secondary);">
+          Developer education isn't documentation. The reader is skeptical, time-pressed, and actively
+          deciding whether your tool is worth their time. That changes everything about how content should
+          be structured, paced, and measured.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-5 mb-8">
+          {[
+            {
+              phase: 'Know your audience',
+              description: 'Developer education readers are evaluating, not just learning. Every sentence has to earn its place by moving them closer to a working integration. If a section doesn\'t produce visible progress, it creates friction — and friction is abandonment.',
+            },
+            {
+              phase: 'Design for milestones',
+              description: 'Each section should produce something. A successful API call before explaining response structure. A working function before introducing error handling. Progress is the reward that keeps developers reading past the first code block.',
+            },
+            {
+              phase: 'Own the pipeline',
+              description: 'Good developer education requires more than writing. It means working with DevRel and engineering to keep content accurate as the product changes, distributing across the right channels, and measuring adoption to know what\'s landing.',
+            },
+            {
+              phase: 'Measure confidence, not clicks',
+              description: 'Page views tell you what\'s found. Time on page tells you what\'s read. But the real signal for developer education is whether someone went from "I\'ve heard of this" to "I\'m building with it" — and that can be instrumented.',
+            },
+          ].map(item => (
+            <div class="p-5 rounded-xl border" style="border-color: var(--color-border);">
+              <p class="section-label mb-2">{item.phase}</p>
+              <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">{item.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="p-5 rounded-xl" style="background: var(--color-accent-light);">
+          <p class="font-semibold mb-2" style="color: #115E59; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            See it in practice
+          </p>
+          <p class="text-sm" style="color: #115E59;">
+            The <a href={`${base}/work/claude-api-tutorial`} class="font-medium underline">Claude API tutorial</a> in
+            my portfolio was written to this standard — a real getting-started guide with working Python code,
+            not a showcase document.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Data-Driven -->
     <section id="data-driven" class="mb-20">
       <div class="flex items-center gap-4 mb-8">

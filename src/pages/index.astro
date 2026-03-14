@@ -7,6 +7,14 @@ const base = import.meta.env.BASE_URL;
 
 const featuredProjects = [
   {
+    title: 'Getting Started with the Claude API',
+    description: 'A developer tutorial walking through Claude API integration from installation to a working Python document summarizer.',
+    tags: ['Developer Education', 'Tutorial'],
+    metric: '0 → working app',
+    metricLabel: 'in one tutorial',
+    href: `${base}/work/claude-api-tutorial`,
+  },
+  {
     title: 'Meeting Recording Tool',
     description: 'User guide for an enterprise VC recording and streaming platform used to document 250+ meetings per day.',
     tags: ['User Guide', 'Enterprise'],
@@ -22,14 +30,6 @@ const featuredProjects = [
     metricLabel: 'review categories',
     href: `${base}/work/mobile-app`,
   },
-  {
-    title: 'Mattermost User Guide',
-    description: 'Multi-platform deployment guide for an enterprise-scale backup communications platform, covering 6 clients and migration from IRC.',
-    tags: ['User Guide', 'Multi-platform'],
-    metric: '9',
-    metricLabel: 'docs · 5 platforms',
-    href: `${base}/work/mattermost`,
-  },
 ];
 ---
 
@@ -37,7 +37,7 @@ const featuredProjects = [
   <!-- Hero -->
   <section class="max-w-content mx-auto px-6 pt-20 pb-16">
     <div class="max-w-2xl">
-      <p class="section-label mb-4">Technical Writer · Editor</p>
+      <p class="section-label mb-4">Technical Writer · Developer Education</p>
       <h1
         class="text-5xl sm:text-6xl font-extrabold leading-none tracking-tight mb-6"
         style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: var(--color-text);"
@@ -48,8 +48,8 @@ const featuredProjects = [
         class="text-xl sm:text-2xl leading-relaxed mb-8 max-w-xl"
         style="color: var(--color-text-secondary);"
       >
-        I write documentation that makes engineers faster, products more adoptable,
-        and teams less dependent on tribal knowledge.
+        I create developer education content and documentation that turns complex APIs
+        into confident builders — and keeps teams out of the weeds.
       </p>
       <div class="flex flex-wrap items-center gap-3">
         <a href={`${base}/work`} class="btn-primary">
@@ -138,10 +138,10 @@ const featuredProjects = [
         class="text-2xl font-bold mb-3"
         style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #115E59;"
       >
-        Looking for a technical writer?
+        Looking for a developer education lead?
       </h2>
       <p class="mb-6 text-sm" style="color: #115E59;">
-        I'm open to full-time and contract roles. Let's talk about what your team needs.
+        I'm open to full-time and contract roles in developer education, content strategy, and technical writing. Let's talk about what your team needs.
       </p>
       <a href="mailto:heath.reinhard@gmail.com" class="btn-primary">
         Get in Touch
