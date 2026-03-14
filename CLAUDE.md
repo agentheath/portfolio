@@ -4,51 +4,54 @@ This file provides guidance for AI assistants working on this codebase.
 
 ## Project Overview
 
-This is **Heath Reinhard's tech writing portfolio** — a static site built with Jekyll and hosted on GitHub Pages. The site showcases technical writing samples and serves as a professional portfolio.
+This is **Heath Reinhard's tech writing portfolio** — a static site built with Astro and Tailwind CSS, deployed to GitHub Pages. The site showcases technical writing samples, a process/methodology page, and an about page, positioning Heath as an AI-native, data-driven technical writer.
 
 - **Live site**: https://agentheath.github.io/portfolio/
-- **Theme**: `jekyll-theme-minimal` (v0.2.0, locally customized)
-- **Markdown processor**: kramdown with GFM input
+- **Framework**: Astro v4 (static output)
+- **Styling**: Tailwind CSS v3
+- **Content**: Markdown via Astro Content Collections
+- **Deployment**: GitHub Actions → GitHub Pages (`deploy.yml`)
 
 ## Repository Structure
 
 ```
 portfolio/
-├── _config.yml              # Jekyll site config (title, theme, markdown settings)
-├── _layouts/
-│   ├── default.html         # Main layout with header/footer/sidebar
-│   └── post.html            # Blog post layout (date, author, tags)
-├── _includes/
-│   ├── head-custom.html     # Custom <head> additions (fonts, etc.)
-│   └── head-custom-google-analytics.html
-├── _sass/
-│   ├── jekyll-theme-minimal.scss  # Theme entry point
-│   ├── minimal.scss               # Core styles
-│   ├── fonts.scss                 # Font imports
-│   └── rouge-github.scss          # Syntax highlighting
-├── assets/
-│   ├── css/style.scss       # Main stylesheet (imports _sass files)
-│   ├── fonts/               # Self-hosted Noto Sans font variants
-│   ├── img/                 # Logo and images
-│   ├── js/scale.fix.js      # Viewport fix script
-│   └── *.pdf                # Resume files
-├── writing/                 # Writing samples (organized by project)
-│   ├── index.md
-│   ├── mattermost/          # Mattermost user guide docs
-│   ├── meeting_recording_tool/
-│   ├── mobile_app/          # Governance framework + checklist
-│   └── url_shortener/
-├── index.md                 # Homepage
-├── 404.md                   # 404 page
-├── Gemfile                  # Ruby dependencies
-├── jekyll-theme-minimal.gemspec  # Gem spec (this repo is also a theme)
-├── .rubocop.yml             # RuboCop config (inherits rubocop-github)
-├── script/
-│   ├── bootstrap            # Install dependencies
-│   ├── cibuild              # Full CI build + test
-│   ├── release              # Release script
-│   └── validate-html        # W3C validation for index.html and style.css
-└── .github/workflows/ci.yaml  # GitHub Actions CI
+├── src/
+│   ├── pages/
+│   │   ├── index.astro          # Homepage (hero, stats, featured work, CTA)
+│   │   ├── about.astro          # About page with sidebar
+│   │   ├── process.astro        # AI workflow + data-driven methodology
+│   │   ├── 404.astro            # Haiku 404 page
+│   │   └── work/
+│   │       ├── index.astro      # Work grid (all projects)
+│   │       └── [...slug].astro  # Dynamic project pages (case study + doc sample)
+│   ├── layouts/
+│   │   ├── Base.astro           # HTML shell, nav, footer, meta tags
+│   │   └── WorkSample.astro     # Layout for standalone writing sample pages
+│   ├── components/
+│   │   ├── Nav.astro            # Sticky top nav with Resume button
+│   │   ├── Footer.astro         # Footer with contact links
+│   │   ├── ProjectCard.astro    # Work card with tags, metric, description
+│   │   └── StatBar.astro        # Impact stats (250+, 6, 5, 4 stats)
+│   ├── content/
+│   │   ├── config.ts            # Content Collection schema (work collection)
+│   │   └── work/
+│   │       ├── mattermost.md
+│   │       ├── meeting-recording-tool.md
+│   │       ├── mobile-app.md
+│   │       ├── url-shortener.md
+│   │       └── published-writing.md
+│   └── styles/
+│       └── global.css           # Tailwind directives + CSS custom properties + .prose styles
+├── public/
+│   └── assets/
+│       ├── Heath Reinhard Resume.pdf
+│       └── img/logo.png
+├── astro.config.mjs             # Astro config (base: '/portfolio', site, Tailwind integration)
+├── tailwind.config.mjs          # Tailwind config (custom colors, fonts, breakpoints)
+├── tsconfig.json                # TypeScript config with @components and @layouts aliases
+├── package.json
+└── .github/workflows/deploy.yml # GitHub Actions: build + deploy to GitHub Pages
 ```
 
 ## Development Workflow
@@ -56,77 +59,115 @@ portfolio/
 ### Setup
 
 ```sh
-script/bootstrap   # gem install bundler && bundle install
+npm install
 ```
 
 ### Local Development
 
 ```sh
-bundle exec jekyll serve   # Serve at http://localhost:4000
+npm run dev   # Starts dev server at http://localhost:4321/portfolio/
 ```
 
-### CI / Build
+### Build
 
 ```sh
-script/cibuild
+npm run build    # Builds to dist/
+npm run preview  # Preview built site at localhost:4321
 ```
 
-This runs in sequence:
-1. `bundle exec jekyll build` — builds `_site/`
-2. `bundle exec htmlproofer ./_site --check-html --check-sri` — validates links and HTML
-3. `bundle exec rubocop -D --config .rubocop.yml` — lints Ruby files
-4. `bundle exec script/validate-html` — W3C validates `_site/index.html` and `_site/assets/css/style.css`
-5. `gem build jekyll-theme-minimal.gemspec` — verifies gem builds cleanly
+The build generates a fully static site in `dist/`. The `dist/` directory is gitignored and should never be committed.
 
-CI runs on every push and PR via GitHub Actions (`.github/workflows/ci.yaml`) using Ruby 2.7.
+### CI / Deployment
 
-## Content Conventions
+Pushing to `master` triggers `.github/workflows/deploy.yml`, which:
+1. Runs `npm ci`
+2. Runs `npm run build`
+3. Deploys `dist/` to GitHub Pages via `actions/deploy-pages`
 
-### Front Matter
+## Content Structure
 
-All content pages use YAML front matter. Minimum required:
+### Adding a New Project
+
+1. Create `src/content/work/my-project.md` with required frontmatter:
 
 ```yaml
 ---
-layout: default
+title: "Project Title"
+description: "One-line description for cards and SEO."
+tags: ["User Guide", "Enterprise"]   # 1–3 tags
+metric: "250+"                        # optional key metric number
+metricLabel: "meetings/day"           # optional metric label
+problem: "Description of the challenge..."
+approach: "How I tackled it..."
+outcome: "What the result was..."
 ---
 ```
 
+2. Add the body — the full writing sample in Markdown below the frontmatter.
+
+3. Add a card to `src/pages/work/index.astro` (and optionally `src/pages/index.astro` for featured).
+
+The slug is auto-derived from the filename (e.g., `my-project.md` → `/work/my-project`).
+
+### Content Collection Schema
+
+Defined in `src/content/config.ts`. Required fields:
+- `title`, `description`, `tags`, `problem`, `approach`, `outcome`
+
 Optional fields:
-- `title` — sets page `<title>` and SEO tags
-- `date`, `author`, `tags` — used by the `post` layout
+- `metric`, `metricLabel`
 
-### Content Files
+## Design System
 
-- All content is written in **Markdown** (`.md`)
-- kramdown with GFM input is used — GitHub Flavored Markdown syntax is supported
-- `hard_wrap: false` — newlines within a paragraph do NOT create `<br>` tags
-- TOC generation uses heading levels 2–3 (`toc_levels: 2..3`)
+### Color Palette (CSS custom properties)
 
-### Navigation / Linking
+| Variable | Value | Usage |
+|---|---|---|
+| `--color-bg` | `#FAFAF9` | Page background (warm off-white) |
+| `--color-text` | `#1C1917` | Body text (warm near-black) |
+| `--color-text-secondary` | `#57534E` | Secondary text, captions |
+| `--color-accent` | `#0F766E` | Teal accent (links, buttons, highlights) |
+| `--color-accent-light` | `#CCFBF1` | Teal-100 (badges, callouts, CTA backgrounds) |
+| `--color-border` | `#E7E5E4` | Borders, dividers |
 
-- Use relative links between pages: `[text](./relative/path)`
-- "Back" links use `[back](../)` pattern (not `{{ site.url }}` — see commented-out alternatives in files)
-- External links use `<a href="..." target="_blank">` HTML for new-tab behavior
+### Typography
 
-### Writing Sample Organization
+- **Headings**: Plus Jakarta Sans (loaded from Google Fonts), weights 400/600/800
+- **Body**: `system-ui, -apple-system, sans-serif`
+- **Mono**: JetBrains Mono (loaded from Google Fonts), for code and kbd elements
 
-Writing samples live under `writing/` organized by project. Each project has its own subdirectory with an `index.md` as the entry point. All identifying/proprietary details in samples are fictionalized.
+### Key CSS Classes (`src/styles/global.css`)
 
-## Ruby / Linting
+- `.prose` — Styled markdown content (headings, lists, tables, code, blockquotes)
+- `.section-label` — Small uppercase tracking label (e.g., "SELECTED WORK")
+- `.stat-badge` — Teal impact stat pill with large number and small label
+- `.project-card` — Hoverable project card with teal border on hover
+- `.doc-tag` — Teal pill tag for document type labels
+- `.btn-primary` — Teal filled button
+- `.btn-secondary` — Outlined button
 
-- RuboCop config inherits from `rubocop-github` defaults
-- `Layout/LineLength` is disabled
-- `_site/` and `vendor/` are excluded from linting
-- Ruby files must pass RuboCop before CI passes
+### Path Aliases (`tsconfig.json`)
 
-## Theme Gem
+- `@components/*` → `src/components/*`
+- `@layouts/*` → `src/layouts/*`
+- `@styles/*` → `src/styles/*`
 
-This repo doubles as the `jekyll-theme-minimal` gem. The gemspec includes only files under `_includes/`, `_layouts/`, `_sass/`, `assets/`, and `LICENSE`/`README`. When editing theme files, keep in mind changes affect both the portfolio site and the gem artifact.
+## Base URL
+
+Astro is configured with `base: '/portfolio'`. Always use `import.meta.env.BASE_URL` when constructing internal links in `.astro` files:
+
+```astro
+const base = import.meta.env.BASE_URL;
+<a href={`${base}/work`}>Work</a>
+```
 
 ## Key Constraints
 
-- **Do not add dependencies** without updating both `Gemfile` and `jekyll-theme-minimal.gemspec` as appropriate
-- **Do not break htmlproofer** — all internal links must resolve, all external `<link>` tags need valid SRI hashes if `--check-sri` is active
-- **W3C validation** runs against built HTML/CSS — avoid non-standard markup
-- The `_site/` directory is generated and should never be committed (it is gitignored)
+- **Never hardcode `/portfolio/` paths** — use `import.meta.env.BASE_URL` so the base path stays configurable
+- **`dist/` and `node_modules/` are gitignored** — never commit these
+- **Assets belong in `public/`** — anything in `public/` is copied as-is to `dist/`
+- **Content Collection entries must match the schema** in `src/content/config.ts` or the build will fail
+
+## Legacy Jekyll Files
+
+The original Jekyll theme files (`_layouts/`, `_sass/`, `_includes/`, `_config.yml`, `Gemfile`, etc.) remain in the repo for historical reference but are not used by the Astro build. They can be safely removed in a future cleanup commit.

@@ -1,0 +1,48 @@
+---
+const base = import.meta.env.BASE_URL;
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: `${base}/work`, label: 'Work' },
+  { href: `${base}/process`, label: 'Process' },
+  { href: `${base}/about`, label: 'About' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b" style="background: rgba(250,250,249,0.95); backdrop-filter: blur(8px); border-color: var(--color-border);">
+  <div class="max-w-content mx-auto px-6 h-16 flex items-center justify-between">
+    <a href={base || '/'} class="flex items-center gap-2 group">
+      <span
+        class="font-extrabold text-lg tracking-tight transition-colors group-hover:text-teal-700"
+        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: var(--color-text);"
+      >
+        Heath Reinhard
+      </span>
+    </a>
+
+    <nav class="flex items-center gap-1">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class="px-3 py-1.5 rounded-lg text-sm font-medium transition-colors"
+          style={currentPath.startsWith(link.href)
+            ? 'background: var(--color-accent-light); color: var(--color-accent);'
+            : 'color: var(--color-text-secondary);'}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href={`${base}/assets/Heath%20Reinhard%20Resume.pdf`}
+        target="_blank"
+        rel="noopener"
+        class="btn-primary ml-3 text-sm"
+      >
+        Resume
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.5 7H11.5M7 2.5L11.5 7L7 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </nav>
+  </div>
+</header>

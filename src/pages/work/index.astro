@@ -1,0 +1,69 @@
+---
+import Base from '@layouts/Base.astro';
+import ProjectCard from '@components/ProjectCard.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const projects = [
+  {
+    title: 'Meeting Recording Tool',
+    description: 'User guide for an enterprise VC recording and streaming platform. Covers scheduling, live recording, event types, retention policies, and calendar integrations.',
+    tags: ['User Guide', 'Enterprise', 'Internal Tool'],
+    metric: '250+',
+    metricLabel: 'meetings/day',
+    href: `${base}/work/meeting-recording-tool`,
+  },
+  {
+    title: 'Mobile App Governance Framework',
+    description: 'End-to-end governance framework and 6-category compliance checklist for a mobile app platform serving internal product teams.',
+    tags: ['Governance', 'Framework', 'Cross-functional'],
+    metric: '6',
+    metricLabel: 'review categories',
+    href: `${base}/work/mobile-app`,
+  },
+  {
+    title: 'Mattermost User Guide',
+    description: 'Multi-platform deployment and usage guide for an enterprise backup communications platform. Includes IRC migration guide, client setup across 5 platforms, and admin best practices.',
+    tags: ['User Guide', 'Multi-platform'],
+    metric: '9',
+    metricLabel: 'docs · 5 platforms',
+    href: `${base}/work/mattermost`,
+  },
+  {
+    title: 'URL Shortener Guide',
+    description: 'Task-based how-to guide covering five distinct methods for creating and managing short URLs, from a simple UI form to keyboard shortcuts and browser extensions.',
+    tags: ['How-to Guide', 'Internal Tool'],
+    href: `${base}/work/url-shortener`,
+  },
+  {
+    title: 'Published Writing',
+    description: 'Computing history and technology articles published on the Living Computers Museum blog. Topics range from Steve Jobs at Xerox PARC to vintage BASIC programming.',
+    tags: ['Editorial', 'Computing History'],
+    href: `${base}/work/published-writing`,
+  },
+];
+---
+
+<Base title="Work — Heath Reinhard" description="Writing samples and documentation projects by Heath Reinhard.">
+  <div class="max-w-content mx-auto px-6 pt-16 pb-24">
+    <div class="mb-12">
+      <p class="section-label mb-2">Portfolio</p>
+      <h1
+        class="text-4xl font-extrabold mb-4"
+        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;"
+      >
+        Selected Work
+      </h1>
+      <p class="text-lg max-w-2xl" style="color: var(--color-text-secondary);">
+        All identifying details and proprietary information have been changed or omitted.
+        Each project below represents a distinct documentation challenge and approach.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {projects.map(project => (
+        <ProjectCard {...project} />
+      ))}
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #FAFAF9;
+    --color-text: #1C1917;
+    --color-text-secondary: #57534E;
+    --color-accent: #0F766E;
+    --color-accent-light: #CCFBF1;
+    --color-border: #E7E5E4;
+  }
+
+  html {
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: var(--color-text);
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  /* Prose styles for writing samples */
+  .prose {
+    max-width: 72ch;
+    color: var(--color-text);
+  }
+
+  .prose h1 {
+    @apply text-3xl font-extrabold mt-12 mb-4;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold mt-10 mb-3 pt-6 border-t border-stone-200;
+  }
+
+  .prose h3 {
+    @apply text-xl font-semibold mt-8 mb-2;
+  }
+
+  .prose p {
+    @apply mb-5;
+  }
+
+  .prose a {
+    color: var(--color-accent);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .prose a:hover {
+    color: #115E59;
+    text-decoration: underline;
+  }
+
+  .prose ul {
+    @apply list-disc pl-6 mb-5 space-y-1;
+  }
+
+  .prose ol {
+    @apply list-decimal pl-6 mb-5 space-y-1;
+  }
+
+  .prose li > ul, .prose li > ol {
+    @apply mt-1 mb-0;
+  }
+
+  .prose blockquote {
+    @apply pl-4 border-l-4 text-stone-600 italic my-6;
+    border-left-color: var(--color-accent);
+  }
+
+  .prose code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875em;
+    background: #F5F5F4;
+    padding: 0.15em 0.35em;
+    border-radius: 4px;
+  }
+
+  .prose pre {
+    @apply rounded-lg p-4 overflow-x-auto text-sm mb-6;
+    background: #1C1917;
+    color: #E7E5E4;
+  }
+
+  .prose pre code {
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+  }
+
+  .prose table {
+    @apply w-full text-sm mb-6 border-collapse;
+  }
+
+  .prose th {
+    @apply text-left py-2 px-3 font-semibold border-b-2 border-stone-200;
+  }
+
+  .prose td {
+    @apply py-2 px-3 border-b border-stone-200;
+  }
+
+  .prose strong {
+    @apply font-semibold;
+    color: var(--color-text);
+  }
+
+  .prose kbd {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+    background: #F5F5F4;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 0.1em 0.4em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  }
+
+  /* Section label pattern */
+  .section-label {
+    @apply text-xs font-semibold tracking-widest uppercase;
+    color: var(--color-accent);
+  }
+
+  /* Stat badge */
+  .stat-badge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--color-accent-light);
+    border-radius: 0.75rem;
+  }
+
+  .stat-badge .number {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: var(--color-accent);
+    line-height: 1;
+  }
+
+  .stat-badge .label {
+    font-size: 0.8125rem;
+    color: #115E59;
+    margin-top: 0.35rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /* Project card */
+  .project-card {
+    @apply rounded-xl border p-6 flex flex-col gap-3 transition-all duration-200;
+    border-color: var(--color-border);
+    background: #fff;
+  }
+
+  .project-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 24px rgba(15, 118, 110, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .doc-tag {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2.5 py-0.5 rounded-full;
+    background: var(--color-accent-light);
+    color: #115E59;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-colors;
+    background: var(--color-accent);
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .btn-primary:hover {
+    background: #115E59;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-colors border;
+    background: transparent;
+    color: var(--color-text);
+    border-color: var(--color-border);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+}

@@ -1,0 +1,151 @@
+---
+import Base from '@layouts/Base.astro';
+import StatBar from '@components/StatBar.astro';
+import ProjectCard from '@components/ProjectCard.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const featuredProjects = [
+  {
+    title: 'Meeting Recording Tool',
+    description: 'User guide for an enterprise VC recording and streaming platform used to document 250+ meetings per day.',
+    tags: ['User Guide', 'Enterprise'],
+    metric: '250+',
+    metricLabel: 'meetings/day',
+    href: `${base}/work/meeting-recording-tool`,
+  },
+  {
+    title: 'Mobile App Governance Framework',
+    description: 'End-to-end governance framework and compliance checklist co-developed with PMs, designers, engineers, and leadership.',
+    tags: ['Governance', 'Framework'],
+    metric: '6',
+    metricLabel: 'review categories',
+    href: `${base}/work/mobile-app`,
+  },
+  {
+    title: 'Mattermost User Guide',
+    description: 'Multi-platform deployment guide for an enterprise-scale backup communications platform, covering 6 clients and migration from IRC.',
+    tags: ['User Guide', 'Multi-platform'],
+    metric: '9',
+    metricLabel: 'docs · 5 platforms',
+    href: `${base}/work/mattermost`,
+  },
+];
+---
+
+<Base>
+  <!-- Hero -->
+  <section class="max-w-content mx-auto px-6 pt-20 pb-16">
+    <div class="max-w-2xl">
+      <p class="section-label mb-4">Technical Writer · Editor</p>
+      <h1
+        class="text-5xl sm:text-6xl font-extrabold leading-none tracking-tight mb-6"
+        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: var(--color-text);"
+      >
+        Heath Reinhard
+      </h1>
+      <p
+        class="text-xl sm:text-2xl leading-relaxed mb-8 max-w-xl"
+        style="color: var(--color-text-secondary);"
+      >
+        I write documentation that makes engineers faster, products more adoptable,
+        and teams less dependent on tribal knowledge.
+      </p>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href={`${base}/work`} class="btn-primary">
+          View My Work
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M8 3L13 8L8 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="mailto:heath.reinhard@gmail.com" class="btn-secondary">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Stats -->
+  <section class="max-w-content mx-auto px-6 py-12 border-t border-b" style="border-color: var(--color-border);">
+    <p class="section-label mb-6 text-center">Impact at a Glance</p>
+    <StatBar />
+  </section>
+
+  <!-- Featured Work -->
+  <section class="max-w-content mx-auto px-6 py-16">
+    <div class="flex items-baseline justify-between mb-8">
+      <div>
+        <p class="section-label mb-1">Selected Work</p>
+        <h2
+          class="text-2xl font-bold"
+          style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;"
+        >
+          Featured Projects
+        </h2>
+      </div>
+      <a href={`${base}/work`} class="text-sm font-medium transition-colors" style="color: var(--color-accent);">
+        All projects →
+      </a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {featuredProjects.map(project => (
+        <ProjectCard {...project} featured />
+      ))}
+    </div>
+  </section>
+
+  <!-- Value Prop / AI + Data -->
+  <section class="max-w-content mx-auto px-6 py-16 border-t" style="border-color: var(--color-border);">
+    <div class="grid sm:grid-cols-2 gap-12 max-w-3xl">
+      <div>
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 2C6.03 2 2 6.03 2 11s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm.5-11H10v6l5.25 3.15.75-1.23-4.5-2.67V7z" fill="currentColor" style="fill: var(--color-accent);"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">AI-Native Workflow</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">
+          I use AI tools throughout the documentation lifecycle — from gap analysis and outline generation to consistency reviews and terminology checks. The result is faster delivery without sacrificing accuracy or voice.
+        </p>
+        <a href={`${base}/process`} class="mt-3 text-sm font-medium inline-block transition-colors" style="color: var(--color-accent);">
+          See my process →
+        </a>
+      </div>
+
+      <div>
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 17h2v-7H3v7zm4 0h2V7H7v10zm4 0h2v-4h-2v4zm4 0h2V3h-2v14z" fill="currentColor" style="fill: var(--color-accent);"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Data-Driven by Default</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">
+          Good documentation is measurable. I identify content gaps through analytics and support ticket analysis, measure effectiveness via adoption and deflection metrics, and iterate the same way engineers iterate on code.
+        </p>
+        <a href={`${base}/process#data-driven`} class="mt-3 text-sm font-medium inline-block transition-colors" style="color: var(--color-accent);">
+          My methodology →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="max-w-content mx-auto px-6 py-16">
+    <div
+      class="rounded-2xl p-10 text-center"
+      style="background: var(--color-accent-light);"
+    >
+      <h2
+        class="text-2xl font-bold mb-3"
+        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #115E59;"
+      >
+        Looking for a technical writer?
+      </h2>
+      <p class="mb-6 text-sm" style="color: #115E59;">
+        I'm open to full-time and contract roles. Let's talk about what your team needs.
+      </p>
+      <a href="mailto:heath.reinhard@gmail.com" class="btn-primary">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+</Base>
