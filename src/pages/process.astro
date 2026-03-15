@@ -1,0 +1,268 @@
+---
+import Base from '@layouts/Base.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Base
+  title="Process — Heath Reinhard"
+  description="How Heath Reinhard approaches technical writing: AI-assisted workflows, data-driven methodology, and a docs-as-code philosophy."
+>
+  <div class="max-w-content mx-auto px-6 pt-16 pb-24">
+    <div class="max-w-2xl mb-16">
+      <p class="section-label mb-2">How I Work</p>
+      <h1
+        class="text-4xl font-extrabold mb-4"
+        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;"
+      >
+        My Process
+      </h1>
+      <p class="text-lg" style="color: var(--color-text-secondary);">
+        Good documentation is not written in isolation. It's a product of research, collaboration,
+        iteration, and measurement — the same disciplines that drive great software.
+      </p>
+    </div>
+
+    <!-- How I Work -->
+    <section class="mb-20 max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+        Docs as Code
+      </h2>
+      <p class="mb-4" style="color: var(--color-text-secondary);">
+        I treat documentation the same way engineers treat software: version-controlled, reviewed, tested,
+        and continuously improved. That means Markdown files in Git, pull request reviews for content changes,
+        and deployment pipelines that catch broken links and HTML validation errors before they reach users.
+      </p>
+      <p style="color: var(--color-text-secondary);">
+        This site itself is a working example. It's built with Astro and Tailwind CSS, deployed via GitHub Actions,
+        and authored entirely in Markdown — the same workflow I use for documentation at work.
+      </p>
+    </section>
+
+    <!-- AI Workflow -->
+    <section id="ai-workflow" class="mb-20">
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+          AI in My Documentation Workflow
+        </h2>
+      </div>
+
+      <div class="max-w-3xl">
+        <p class="mb-6" style="color: var(--color-text-secondary);">
+          I use AI tools throughout the documentation lifecycle — not to replace judgment, but to move faster
+          through the parts that don't require it. Here's where AI adds the most value in my process:
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-5 mb-8">
+          {[
+            {
+              phase: 'Discovery',
+              description: 'I use AI to rapidly synthesize background reading, identify gaps in existing docs, and generate a first-pass outline. This cuts the "blank page" problem to near zero.',
+            },
+            {
+              phase: 'Outlining & Structure',
+              description: 'AI helps me stress-test information architecture before I commit to it. I\'ll prompt for "what would a new user need to know first?" or "what questions will this section leave unanswered?" to identify structural weaknesses early.',
+            },
+            {
+              phase: 'Consistency Review',
+              description: 'After drafting, I run AI-assisted passes for terminology consistency, reading level calibration, and voice alignment. This catches issues that are tedious to spot manually across long documents.',
+            },
+            {
+              phase: 'SME Interview Prep',
+              description: 'I use AI to research domain context before working with subject matter experts. Arriving with strong foundational knowledge means I can spend interview time on the nuances that only the SME knows — not on basics I could have learned independently.',
+            },
+          ].map(item => (
+            <div class="p-5 rounded-xl border" style="border-color: var(--color-border);">
+              <p class="section-label mb-2">{item.phase}</p>
+              <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">{item.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="p-5 rounded-xl" style="background: var(--color-accent-light);">
+          <p class="font-semibold mb-2" style="color: #115E59; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            Where human judgment stays irreplaceable
+          </p>
+          <p class="text-sm" style="color: #115E59;">
+            AI doesn't know your users, your product's edge cases, or the political context that shapes what can and can't be said in a governance document. Every output I generate with AI is reviewed, revised, and verified against source truth before it ships. The goal is leverage, not delegation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developer Education -->
+    <section id="developer-education" class="mb-20">
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3L2 8L12 13L22 8L12 3Z" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 8V16" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M6 10.5V17C6 17 8 19 12 19C16 19 18 17 18 17V10.5" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+          Developer Education: From Skeptic to Builder
+        </h2>
+      </div>
+
+      <div class="max-w-3xl">
+        <p class="mb-6" style="color: var(--color-text-secondary);">
+          Developer education isn't documentation. The reader is skeptical, time-pressed, and actively
+          deciding whether your tool is worth their time. That changes everything about how content should
+          be structured, paced, and measured.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-5 mb-8">
+          {[
+            {
+              phase: 'Know your audience',
+              description: 'Developer education readers are evaluating, not just learning. Every sentence has to earn its place by moving them closer to a working integration. If a section doesn\'t produce visible progress, it creates friction — and friction is abandonment.',
+            },
+            {
+              phase: 'Design for milestones',
+              description: 'Each section should produce something. A successful API call before explaining response structure. A working function before introducing error handling. Progress is the reward that keeps developers reading past the first code block.',
+            },
+            {
+              phase: 'Own the pipeline',
+              description: 'Good developer education requires more than writing. It means working with DevRel and engineering to keep content accurate as the product changes, distributing across the right channels, and measuring adoption to know what\'s landing.',
+            },
+            {
+              phase: 'Measure confidence, not clicks',
+              description: 'Page views tell you what\'s found. Time on page tells you what\'s read. But the real signal for developer education is whether someone went from "I\'ve heard of this" to "I\'m building with it" — and that can be instrumented.',
+            },
+          ].map(item => (
+            <div class="p-5 rounded-xl border" style="border-color: var(--color-border);">
+              <p class="section-label mb-2">{item.phase}</p>
+              <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">{item.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="p-5 rounded-xl" style="background: var(--color-accent-light);">
+          <p class="font-semibold mb-2" style="color: #115E59; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            See it in practice
+          </p>
+          <p class="text-sm" style="color: #115E59;">
+            The <a href={`${base}/work/claude-api-tutorial`} class="font-medium underline">Claude API tutorial</a> in
+            my portfolio was written to this standard — a real getting-started guide with working Python code,
+            not a showcase document.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data-Driven -->
+    <section id="data-driven" class="mb-20">
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: var(--color-accent-light);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 3V21H21" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7 16L11 12L15 14L21 8" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+          Making Documentation Data-Driven
+        </h2>
+      </div>
+
+      <div class="max-w-3xl">
+        <p class="mb-8" style="color: var(--color-text-secondary);">
+          Documentation that no one reads is a liability, not an asset. I treat content effectiveness as
+          measurable and improvable — the same way engineering teams treat code performance.
+        </p>
+
+        <div class="space-y-6">
+          <div class="flex gap-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm" style="background: var(--color-accent); color: white; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">1</div>
+            <div>
+              <h3 class="font-semibold mb-1" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Identify gaps before writing</h3>
+              <p class="text-sm" style="color: var(--color-text-secondary);">
+                I use support ticket volume, search queries, and user interviews to prioritize what to document first.
+                The highest-traffic support questions are the highest-value documentation opportunities.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm" style="background: var(--color-accent); color: white; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">2</div>
+            <div>
+              <h3 class="font-semibold mb-1" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Measure effectiveness after publishing</h3>
+              <p class="text-sm" style="color: var(--color-text-secondary);">
+                Page views tell you what's found. Time-on-page and scroll depth tell you what's read.
+                Support ticket deflection tells you what's working. I track all three and use them to
+                decide what to revise, consolidate, or retire.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm" style="background: var(--color-accent); color: white; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">3</div>
+            <div>
+              <h3 class="font-semibold mb-1" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Govern with quantitative thresholds</h3>
+              <p class="text-sm" style="color: var(--color-text-secondary);">
+                For the Mobile App Governance Framework, I built enforcement triggers around measurable thresholds
+                — a 30% quarter-over-quarter decline in Weekly Active People triggers a review; a spike in
+                30-day rolling error averages triggers escalation. Quantitative criteria remove subjectivity
+                from enforcement decisions and make them defensible.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm" style="background: var(--color-accent); color: white; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">4</div>
+            <div>
+              <h3 class="font-semibold mb-1" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Iterate like an engineer</h3>
+              <p class="text-sm" style="color: var(--color-text-secondary);">
+                Documentation has a shelf life. I build review cycles into my workflow — scheduled audits,
+                change notifications from engineering teams, and flagged "last reviewed" dates on content
+                that might go stale. Docs should be maintained, not just published.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writing Process -->
+    <section class="max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+        From Brief to Publish
+      </h2>
+
+      <div class="flex flex-col sm:flex-row gap-0">
+        {[
+          { step: 'Discover', desc: 'Understand the audience, use case, and what currently exists. Identify gaps.' },
+          { step: 'Outline', desc: 'Structure the information architecture. AI-assisted, then validated with SMEs.' },
+          { step: 'Draft', desc: 'Write to the outline. Prioritize clarity and scannability over completeness.' },
+          { step: 'Review', desc: 'SME review for accuracy. Peer review for voice and structure. AI pass for consistency.' },
+          { step: 'Publish', desc: 'Ship via PR. Track analytics post-launch. Iterate based on data.' },
+        ].map((item, i) => (
+          <div class="flex sm:flex-col items-start sm:items-center gap-3 sm:gap-2 flex-1">
+            <div class="flex sm:flex-col items-center gap-0 w-full">
+              <div
+                class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xs z-10"
+                style="background: var(--color-accent); color: white; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;"
+              >
+                {i + 1}
+              </div>
+              {i < 4 && (
+                <div class="hidden sm:block h-px flex-1 w-full" style="background: var(--color-border);"></div>
+              )}
+            </div>
+            <div class="sm:text-center mt-0 sm:mt-2 pb-4 sm:pb-0">
+              <p class="font-semibold text-sm mb-1" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">{item.step}</p>
+              <p class="text-xs" style="color: var(--color-text-secondary);">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>
