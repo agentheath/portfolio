@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,12 +8,12 @@
 
 @layer base {
   :root {
-    --color-bg: #FAFAF9;
-    --color-text: #1C1917;
-    --color-text-secondary: #57534E;
-    --color-accent: #0F766E;
-    --color-accent-light: #CCFBF1;
-    --color-border: #E7E5E4;
+    --color-bg: #000000;
+    --color-text: #E8E8E8;
+    --color-text-secondary: #666666;
+    --color-accent: #00FF88;
+    --color-accent-light: #001a0d;
+    --color-border: #1f1f1f;
   }
 
   html {
@@ -26,14 +26,26 @@
   }
 
   body {
-    font-family: 'Newsreader', Georgia, serif;
+    font-family: 'JetBrains Mono', Menlo, monospace;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: 'JetBrains Mono', Menlo, monospace;
     color: var(--color-text);
     line-height: 1.2;
   }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '_';
+  color: var(--color-accent);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
 }
 
 @layer components {
@@ -90,15 +102,19 @@
   .prose code {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.875em;
-    background: #F5F5F4;
+    background: #111111;
+    color: var(--color-accent);
     padding: 0.15em 0.35em;
-    border-radius: 4px;
+    border-radius: 2px;
+    border: 1px solid var(--color-border);
   }
 
   .prose pre {
-    @apply rounded-lg p-4 overflow-x-auto text-sm mb-6;
-    background: #1C1917;
+    @apply p-4 overflow-x-auto text-sm mb-6;
+    background: #080808;
     color: #E7E5E4;
+    border: 1px solid var(--color-border);
+    border-radius: 0;
   }
 
   .prose pre code {
@@ -139,6 +155,7 @@
   .section-label {
     @apply text-xs font-semibold tracking-widest uppercase;
     color: var(--color-accent);
+    font-family: 'JetBrains Mono', Menlo, monospace;
   }
 
   /* Stat badge */
@@ -148,62 +165,65 @@
     align-items: center;
     padding: 1rem 1.5rem;
     background: var(--color-accent-light);
-    border-radius: 0.75rem;
+    border: 1px solid var(--color-border);
   }
 
   .stat-badge .number {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: 'JetBrains Mono', Menlo, monospace;
     font-size: 1.875rem;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--color-accent);
     line-height: 1;
   }
 
   .stat-badge .label {
-    font-size: 0.8125rem;
-    color: #115E59;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
     margin-top: 0.35rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'JetBrains Mono', Menlo, monospace;
   }
 
   /* Project card */
   .project-card {
-    @apply rounded-xl border p-6 flex flex-col gap-3 transition-all duration-200;
+    @apply border p-6 flex flex-col gap-3 transition-all duration-200;
     border-color: var(--color-border);
-    background: #fff;
+    background: #080808;
   }
 
   .project-card:hover {
     border-color: var(--color-accent);
-    box-shadow: 0 4px 24px rgba(15, 118, 110, 0.08);
-    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.07);
   }
 
   .doc-tag {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-2.5 py-0.5 rounded-full;
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5;
     background: var(--color-accent-light);
-    color: #115E59;
+    color: var(--color-accent);
+    font-family: 'JetBrains Mono', Menlo, monospace;
+    border: 1px solid rgba(0,255,136,0.2);
   }
 
   /* Button styles */
   .btn-primary {
-    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-colors;
+    @apply inline-flex items-center gap-2 px-5 py-2.5 font-semibold text-sm transition-all;
     background: var(--color-accent);
-    color: #fff;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #000;
+    font-family: 'JetBrains Mono', Menlo, monospace;
   }
 
   .btn-primary:hover {
-    background: #115E59;
+    background: #00cc6a;
+    box-shadow: 0 0 16px rgba(0, 255, 136, 0.35);
   }
 
   .btn-secondary {
-    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-colors border;
+    @apply inline-flex items-center gap-2 px-5 py-2.5 font-semibold text-sm transition-all border;
     background: transparent;
     color: var(--color-text);
     border-color: var(--color-border);
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: 'JetBrains Mono', Menlo, monospace;
   }
 
   .btn-secondary:hover {

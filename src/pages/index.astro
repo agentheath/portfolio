@@ -35,94 +35,88 @@ const featuredProjects = [
 
 <Base>
   <!-- Hero -->
-  <section class="max-w-content mx-auto px-6 pt-20 pb-16">
-    <div class="max-w-2xl">
-      <p class="section-label mb-4">Technical Writer · Developer Education</p>
-      <h1
-        class="text-5xl sm:text-6xl font-extrabold leading-none tracking-tight mb-6"
-        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: var(--color-text);"
-      >
-        Heath Reinhard
-      </h1>
-      <p
-        class="text-xl sm:text-2xl leading-relaxed mb-8 max-w-xl"
-        style="color: var(--color-text-secondary);"
-      >
-        I create developer education content and documentation that turns complex APIs
-        into confident builders — and keeps teams out of the weeds.
-      </p>
-      <div class="flex flex-wrap items-center gap-3">
-        <a href={`${base}/work`} class="btn-primary">
-          View My Work
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M8 3L13 8L8 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-        <a href="mailto:heath.reinhard@gmail.com" class="btn-secondary">
-          Get in Touch
-        </a>
-      </div>
+  <section class="max-w-content mx-auto px-6 pt-20 pb-16 border-b" style="border-color: var(--color-border);">
+    <p class="section-label mb-4">&gt; TECHNICAL WRITER · DEVELOPER EDUCATION</p>
+    <h1
+      class="text-5xl sm:text-6xl font-bold leading-none tracking-tight mb-6 cursor-blink"
+      style="font-family: 'JetBrains Mono', Menlo, monospace; color: var(--color-text);"
+    >
+      Heath Reinhard
+    </h1>
+    <p
+      class="text-base sm:text-lg leading-relaxed mb-8 max-w-xl"
+      style="color: var(--color-text-secondary);"
+    >
+      I turn complex APIs into confident builders — and keep teams out of the weeds.
+      Documentation that ships with the product.
+    </p>
+    <div class="flex flex-wrap items-center gap-3">
+      <a href={`${base}/work`} class="btn-primary">
+        view_my_work() →
+      </a>
+      <a href="mailto:heath.reinhard@gmail.com" class="btn-secondary">
+        get_in_touch()
+      </a>
     </div>
   </section>
 
   <!-- Impact Stats -->
-  <section class="max-w-content mx-auto px-6 py-12 border-t border-b" style="border-color: var(--color-border);">
-    <p class="section-label mb-6 text-center">Impact at a Glance</p>
+  <section class="max-w-content mx-auto px-6 py-12 border-b" style="border-color: var(--color-border);">
+    <p class="section-label mb-6">&gt; IMPACT_AT_A_GLANCE</p>
     <StatBar />
   </section>
 
   <!-- Featured Work -->
-  <section class="max-w-content mx-auto px-6 py-16">
+  <section class="max-w-content mx-auto px-6 py-16 border-b" style="border-color: var(--color-border);">
     <div class="flex items-baseline justify-between mb-8">
       <div>
-        <p class="section-label mb-1">Selected Work</p>
+        <p class="section-label mb-1">&gt; SELECTED_WORK</p>
         <h2
-          class="text-2xl font-bold"
-          style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;"
+          class="text-xl font-bold"
+          style="font-family: 'JetBrains Mono', Menlo, monospace;"
         >
           Featured Projects
         </h2>
       </div>
-      <a href={`${base}/work`} class="text-sm font-medium transition-colors" style="color: var(--color-accent);">
-        All projects →
+      <a href={`${base}/work`} class="text-sm font-medium transition-colors" style="color: var(--color-accent); font-family: 'JetBrains Mono', Menlo, monospace;">
+        all_projects →
       </a>
     </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px" style="background: var(--color-border);">
       {featuredProjects.map(project => (
-        <ProjectCard {...project} featured />
+        <div style="background: #000;">
+          <ProjectCard {...project} featured />
+        </div>
       ))}
     </div>
   </section>
 
   <!-- Value Prop / AI + Data -->
-  <section class="max-w-content mx-auto px-6 py-16 border-t" style="border-color: var(--color-border);">
+  <section class="max-w-content mx-auto px-6 py-16 border-b" style="border-color: var(--color-border);">
+    <p class="section-label mb-8">&gt; METHODOLOGY</p>
     <div class="grid sm:grid-cols-2 gap-12 max-w-3xl">
       <div>
-        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: var(--color-accent-light);">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 2C6.03 2 2 6.03 2 11s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm.5-11H10v6l5.25 3.15.75-1.23-4.5-2.67V7z" fill="currentColor" style="fill: var(--color-accent);"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">AI-Native Workflow</h3>
-        <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">
-          I use AI tools throughout the documentation lifecycle — from gap analysis and outline generation to consistency reviews and terminology checks. The result is faster delivery without sacrificing accuracy or voice.
+        <h3 class="font-bold text-base mb-3" style="font-family: 'JetBrains Mono', Menlo, monospace; color: var(--color-accent);">
+          // AI-Native Workflow
+        </h3>
+        <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-secondary);">
+          I use AI tools throughout the documentation lifecycle — from gap analysis and outline generation to consistency reviews and terminology checks. Faster delivery without sacrificing accuracy or voice.
         </p>
-        <a href={`${base}/process`} class="mt-3 text-sm font-medium inline-block transition-colors" style="color: var(--color-accent);">
-          See my process →
+        <a href={`${base}/process`} class="text-sm font-medium inline-block transition-colors" style="color: var(--color-accent); font-family: 'JetBrains Mono', Menlo, monospace;">
+          see_my_process →
         </a>
       </div>
 
       <div>
-        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: var(--color-accent-light);">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 17h2v-7H3v7zm4 0h2V7H7v10zm4 0h2v-4h-2v4zm4 0h2V3h-2v14z" fill="currentColor" style="fill: var(--color-accent);"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Data-Driven by Default</h3>
-        <p class="text-sm leading-relaxed" style="color: var(--color-text-secondary);">
+        <h3 class="font-bold text-base mb-3" style="font-family: 'JetBrains Mono', Menlo, monospace; color: var(--color-accent);">
+          // Data-Driven by Default
+        </h3>
+        <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-secondary);">
           Good documentation is measurable. I identify content gaps through analytics and support ticket analysis, measure effectiveness via adoption and deflection metrics, and iterate the same way engineers iterate on code.
         </p>
-        <a href={`${base}/process#data-driven`} class="mt-3 text-sm font-medium inline-block transition-colors" style="color: var(--color-accent);">
-          My methodology →
+        <a href={`${base}/process#data-driven`} class="text-sm font-medium inline-block transition-colors" style="color: var(--color-accent); font-family: 'JetBrains Mono', Menlo, monospace;">
+          my_methodology →
         </a>
       </div>
     </div>
@@ -131,20 +125,22 @@ const featuredProjects = [
   <!-- CTA -->
   <section class="max-w-content mx-auto px-6 py-16">
     <div
-      class="rounded-2xl p-10 text-center"
-      style="background: var(--color-accent-light);"
+      class="p-10 border"
+      style="background: var(--color-accent-light); border-color: rgba(0,255,136,0.2);"
     >
+      <p class="section-label mb-3">&gt; OPEN_TO_WORK</p>
       <h2
-        class="text-2xl font-bold mb-3"
-        style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #115E59;"
+        class="text-xl font-bold mb-3"
+        style="font-family: 'JetBrains Mono', Menlo, monospace; color: var(--color-accent);"
       >
         Looking for a developer education lead?
       </h2>
-      <p class="mb-6 text-sm" style="color: #115E59;">
-        I'm open to full-time and contract roles in developer education, content strategy, and technical writing. Let's talk about what your team needs.
+      <p class="mb-6 text-sm" style="color: var(--color-text-secondary);">
+        Open to full-time and contract roles in developer education, content strategy, and technical writing.
+        Let's talk about what your team needs.
       </p>
       <a href="mailto:heath.reinhard@gmail.com" class="btn-primary">
-        Get in Touch
+        get_in_touch() →
       </a>
     </div>
   </section>
