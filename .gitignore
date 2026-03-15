@@ -3,11 +3,3 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
-
-# Astro
-dist/
-.astro/
-node_modules/
-npm-debug.log*
-.env
-.env.*
