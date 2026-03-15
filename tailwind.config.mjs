@@ -19,7 +19,7 @@ export default {
       },
       fontFamily: {
         display: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
-        body: ['system-ui', '-apple-system', 'sans-serif'],
+        body: ['"Newsreader"', 'Georgia', 'serif'],
         mono: ['"JetBrains Mono"', 'Menlo', 'monospace'],
       },
       fontSize: {
