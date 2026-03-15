@@ -7,9 +7,9 @@ const stats = [
 ];
 ---
 
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-px" style="background: var(--color-border);">
   {stats.map(stat => (
-    <div class="stat-badge">
+    <div class="stat-badge" style="background: #000;">
       <span class="number">{stat.number}</span>
       <span class="label" style="white-space: pre-line;">{stat.label}</span>
     </div>
