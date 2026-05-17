@@ -6,3 +6,7 @@
 section h1:first-child {
   font-size: 22px;
 }
+
+section h1:first-child + h2 {
+  font-size: 18px;
+}
