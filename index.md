@@ -4,7 +4,7 @@ layout: default
 
 # Heath Reinhard | Documentation Engineer
 
-### AI Evals & Documentation Analytics
+## AI Evals & Documentation Analytics
 
 I started as a documentation engineer. I ended up building AI evaluation systems.
 
