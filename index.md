@@ -38,7 +38,7 @@ If you think I might be the right fit for your organization, [get in touch!](mai
 -->
 
 
-## About this Site
+## About this site
 
 This site was created with Markdown, Git and GitHub, Jekyll, and Claude Code using a docs-as-code workflow.
 
