@@ -1,4 +1,4 @@
-# Heath's Tech Writing Portfolio
+# Heath Reinhard's  Portfolio
 
 Thanks for visiting the repo for my portfolio site. This site is a work-in-progress.
 
