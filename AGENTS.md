@@ -25,6 +25,17 @@ https://agentheath.github.io/portfolio/
 - Do not add README files inside `_posts/`; Jekyll expects dated post filenames there.
 - Author-facing publishing instructions live in `BLOGGING.md`.
 
+## Writing Samples Scaffolding
+
+- Writing samples index: `writing/index.md`.
+- Writing samples are grouped into two primary headings:
+  - **Recent Work**: Modern technical analyses, RAG evaluation frameworks, and regression studies.
+  - **Previous Work**: Legacy technical user guides, product handbooks, and frameworks.
+- Individual writing samples live in their own subdirectory containing an `index.md` page (e.g., `writing/documentation_analytics/index.md` and `writing/content_quality/index.md`).
+- Each writing sample page must:
+  - Declare `layout: default` in its Jekyll front matter.
+  - End with a `[back](../)` navigation link to return to the writing samples index.
+
 ## Local Environment
 
 - Ruby is pinned by `.ruby-version`.
