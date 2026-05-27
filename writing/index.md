@@ -15,7 +15,6 @@ In AI-enabled organizations, internal documentation acts as critical infrastruct
 
 This synthetic analysis outlines an analytics framework that measures both human readership and machine usage, translating those signals into a closed-loop content quality and governance workflow.
 
-*Note: This analysis uses fictional systems and synthetic datasets to protect proprietary information.*
 * [The AI-Driven Shift in Enterprise Knowledge Consumption](./documentation_analytics/)
 
 ### Assessing the Impact of Content Quality on AI Assistant Response Feedback
