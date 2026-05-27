@@ -4,9 +4,21 @@ title: Writing Samples
 ---
 
 # Writing Samples
-## Tech Writing
 
 > All identifying details and proprietary information have been changed or omitted in the following samples.
+
+## Recent Work
+
+### The AI-Driven Shift in Enterprise Knowledge Consumption
+
+In AI-enabled organizations, internal documentation acts as critical infrastructure for AI assistants and RAG pipelines. Traditional analytics measure human pageviews but fail to capture machine consumption—whether an AI retrieved, cited, or summarized a document to answer a question.
+
+This synthetic analysis outlines an analytics framework that measures both human readership and machine usage, translating those signals into a closed-loop content quality and governance workflow.
+
+*Note: This analysis uses fictional systems and synthetic datasets to protect proprietary information.*
+* [The AI-Driven Shift in Enterprise Knowledge Consumption](./documentation_analytics/)
+
+## Previous Work
 
 ### Mattermost
 
@@ -20,7 +32,7 @@ _Meeting Recording Tool_ is an internal tool for recording and streaming VCs fro
 
 ### _Mobile App_ Governance Framework
 
-_Mobile App_ is a fictionalized version of an internal company mobile app platform I worked on. Other internal company product teams could leverage the _Mobile App_ platform to quickly ship mobile versions of widely-used internal tools. In parnership with Product Managers, Product Designers, UX Researchers, Data Engineers, Software Engineers, and Management, I led the development of a Governance Framework to improve the consistency and quality of the constituent apps hosted on the platform.
+_Mobile App_ is a fictionalized version of an internal company mobile app platform I worked on. Other internal company product teams could leverage the _Mobile App_ platform to quickly ship mobile versions of widely-used internal tools. In partnership with Product Managers, Product Designers, UX Researchers, Data Engineers, Software Engineers, and Management, I led the development of a Governance Framework to improve the consistency and quality of the constituent apps hosted on the platform.
 * [_Mobile App_ Governance Framework](./mobile_app/gov_framework)
 * [Detailed Checklist of App Requirements](./mobile_app/checklist)
 
