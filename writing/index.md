@@ -18,6 +18,11 @@ This synthetic analysis outlines an analytics framework that measures both human
 *Note: This analysis uses fictional systems and synthetic datasets to protect proprietary information.*
 * [The AI-Driven Shift in Enterprise Knowledge Consumption](./documentation_analytics/)
 
+### Assessing the Impact of Content Quality on Metamate Response Feedback
+
+This technical study investigates whether the quality of internal documentation retrieved in a RAG funnel directly predicts positive user feedback for an AI assistant. By performing logistic regression and cross-validation on 80,000+ feedback events, it evaluates predictive quality signals—including page freshness (Page Scores), sentence length, readability scores, and active page ownership.
+* [Assessing the Impact of Content Quality on Metamate Response Feedback](./content_quality/)
+
 ## Previous Work
 
 ### Mattermost
