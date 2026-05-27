@@ -238,8 +238,4 @@ Finally, **we should further investigate the signals already in the model**. For
 
 Is there an implicit bias in the overall sample of responses that receive feedback? Is the set of responses that receive feedback non-random? Are certain kinds of user queries and responses more or less likely to receive user feedback?
 
-# References & Resources
-
-For public portfolio use, replace internal references with public RAG, documentation-quality, and knowledge-management sources. Do not include internal links, query URLs, notebook links, dashboard URLs, table names, screenshots, or source-system identifiers.
-
 [back](../)
