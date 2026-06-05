@@ -11,15 +11,14 @@ title: Writing Samples
 
 ### The AI-Driven Shift in Enterprise Knowledge Consumption
 
-In AI-enabled organizations, internal documentation acts as critical infrastructure for AI assistants and RAG pipelines. Traditional analytics measure human pageviews but fail to capture machine consumption—whether an AI retrieved, cited, or summarized a document to answer a question.
-
-This synthetic analysis outlines an analytics framework that measures both human readership and machine usage, translating those signals into a closed-loop content quality and governance workflow.
+An abstract of a traffic analysis examining how AI retrieval changed documentation consumption patterns inside a large technology organization. The study compares human readership and RAG-driven assistant retrievals, then identifies implications for documentation measurement, freshness, structure, and knowledge management strategy.
 
 * [The AI-Driven Shift in Enterprise Knowledge Consumption](./documentation_analytics/)
 
 ### Assessing the Impact of Content Quality on AI Assistant Response Feedback
 
-This technical study investigates whether the quality of internal documentation retrieved in a RAG funnel directly predicts positive user feedback for an AI assistant. By performing logistic regression and cross-validation on 80,000+ feedback events, it evaluates predictive quality signals—including page freshness (Page Scores), sentence length, readability scores, and active page ownership.
+An abstract of a case study examining whether measurable documentation quality signals are associated with better user feedback for RAG-generated AI assistant responses. The analysis focuses on freshness, readability, sentence length, ownership, and source curation as predictors of perceived response quality.
+
 * [Assessing the Impact of Content Quality on AI Assistant Response Feedback](./content_quality/)
 
 ## Previous Work
