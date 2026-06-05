@@ -4,9 +4,24 @@ title: Writing Samples
 ---
 
 # Writing Samples
-## Tech Writing
 
 > All identifying details and proprietary information have been changed or omitted in the following samples.
+
+## Recent Work
+
+### The AI-Driven Shift in Enterprise Knowledge Consumption
+
+An abstract of a traffic analysis examining how AI retrieval changed documentation consumption patterns inside a large technology organization. The study compares human readership and RAG-driven assistant retrievals, then identifies implications for documentation measurement, freshness, structure, and knowledge management strategy.
+
+* [The AI-Driven Shift in Enterprise Knowledge Consumption](./documentation_analytics/)
+
+### Assessing the Impact of Content Quality on AI Assistant Response Feedback
+
+An abstract of a case study examining whether measurable documentation quality signals are associated with better user feedback for RAG-generated AI assistant responses. The analysis focuses on freshness, readability, sentence length, ownership, and source curation as predictors of perceived response quality.
+
+* [Assessing the Impact of Content Quality on AI Assistant Response Feedback](./content_quality/)
+
+## Previous Work
 
 ### Mattermost
 
@@ -20,7 +35,7 @@ _Meeting Recording Tool_ is an internal tool for recording and streaming VCs fro
 
 ### _Mobile App_ Governance Framework
 
-_Mobile App_ is a fictionalized version of an internal company mobile app platform I worked on. Other internal company product teams could leverage the _Mobile App_ platform to quickly ship mobile versions of widely-used internal tools. In parnership with Product Managers, Product Designers, UX Researchers, Data Engineers, Software Engineers, and Management, I led the development of a Governance Framework to improve the consistency and quality of the constituent apps hosted on the platform.
+_Mobile App_ is a fictionalized version of an internal company mobile app platform I worked on. Other internal company product teams could leverage the _Mobile App_ platform to quickly ship mobile versions of widely-used internal tools. In partnership with Product Managers, Product Designers, UX Researchers, Data Engineers, Software Engineers, and Management, I led the development of a Governance Framework to improve the consistency and quality of the constituent apps hosted on the platform.
 * [_Mobile App_ Governance Framework](./mobile_app/gov_framework)
 * [Detailed Checklist of App Requirements](./mobile_app/checklist)
 
