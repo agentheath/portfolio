@@ -23,13 +23,13 @@ Taylor's first brush with computers was in the late 1950s while finishing his ma
 
 Dutifully, he took his data down to the school's vast computer center. The student administering the computer center informed Taylor that, yes, he could use the computer, but he would first need to reenter his reams of data as holes in a stack of punch cards. Then the cards could be fed into the computer, the analysis performed, and Taylor could come pick up his results hours or even days later, depending on how busy the computer was at the time with other tasks.
 
-Taylor was incredulous that this labyrinthine process was necessary to use the computer. He stormed out of the computer center and stubbornly performed his calculations by hand using an electromechanical calculator instead.
+Taylor was incredulous that this labyrinthine process was necessary to use the computer. He stormed out of the computer center and stubbornly performed his calculations by hand, using an electromechanical calculator instead.
 
 Taylor had been hearing for years about these so-called "electronic brains." But he knew brains--he had studied them! He saw very little similarity between the oversized calculator he had declined to use at the University of Texas and the human brain.
 
-After completing his master's degree, Taylor worked at a defense contractor on a missile system. While there he read an article by a man who would later become his mentor, JCR Licklider. The article was entitled "Man-Computer Symbiosis" and it described interactive and robust computer systems being used not as calculating devices, but as aids to human thought and creativity. This vision inspired Bob Taylor: he had discovered what he really wanted to work on.
+After completing his master's degree, Taylor worked at a defense contractor on a missile system. While there he read an article by a man who would later become his mentor, J.C.R. Licklider. The article was entitled "Man-Computer Symbiosis" and it described interactive and robust computer systems being used not as calculating devices, but as aids to human thought and creativity. This vision inspired Bob Taylor: he had discovered what he really wanted to work on.
 
-A few years later, Taylor would come work for Licklider at a government agency called ARPA, the *Advanced Research Projects Agency*. At the time, Licklider was the Director of the *Information Techniques Processing Office* (IPTO) at ARPA, an office that the US government was using to support and coordinate the development of a technology called *timesharing*.
+A few years later, Taylor would come work for Licklider at a government agency called ARPA, the *Advanced Research Projects Agency*. At the time, Licklider was the Director of the *Information Processing Techniques  Office* (IPTO) at ARPA, an office that the US government was using to support and coordinate the development of a technology called *timesharing*.
 
 ![Bill Gates and Paul Allen at a Teletype Model 33 ASR]({{ "/assets/img/blog/bob-taylor-part-1/teletype-timesharing.png" | relative_url }})
 
