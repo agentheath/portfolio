@@ -9,7 +9,7 @@ tags: [computing-history, bob-taylor, arpanet]
 
 ![Bob Taylor]({{ "/assets/img/blog/bob-taylor-part-2/bob-taylor.png" | relative_url }})
 
-This is part two in the four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1/" | relative_url }}).
+This is part two in the four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1.html" | relative_url }}).
 
 ## ARPAnet
 
