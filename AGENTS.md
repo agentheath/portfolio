@@ -71,6 +71,7 @@ CI also runs `script/cibuild`, which performs:
 - Use `--http-status-ignore`, not `--ignore-status-codes`, for ignored HTTP status codes.
 - Use `--url-ignore` for URLs that block bots.
 - Use `--url-swap` for baseurl-aware local validation; production links include `/portfolio/`, but `htmlproofer ./_site` needs those mapped back to local `_site` paths.
+- For links from Markdown posts to other posts, prefer the generated `.html` URL with `relative_url` (for example, `{{ "/2026/06/10/example-post.html" | relative_url }}`). Extensionless dated post URLs may work in the browser but fail `htmlproofer ./_site` because the local generated file is `.html`.
 - Rubocop enforces double-quoted strings for Ruby files.
 - CI uses Ruby 3.3.
 
