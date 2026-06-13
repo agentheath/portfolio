@@ -9,7 +9,7 @@ tags: [computing-history, bob-taylor, gui, xerox-parc]
 
 ![Bob Taylor]({{ "/assets/img/blog/bob-taylor-part-3/bob-taylor.png" | relative_url }})
 
-This is part three of our four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1.html" | relative_url }}) and [part two]({{ "/2026/06/11/bob-taylor-modern-computing-part-2.html" | relative_url }}).
+This is part three of a four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1.html" | relative_url }}) and [part two]({{ "/2026/06/11/bob-taylor-modern-computing-part-2.html" | relative_url }}).
 
 ## GUI
 

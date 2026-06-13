@@ -9,7 +9,7 @@ tags: [computing-history, bob-taylor, internet-search, altavista]
 
 ![Bob Taylor]({{ "/assets/img/blog/bob-taylor-part-4/bob-taylor.png" | relative_url }})
 
-This is part four of our four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1.html" | relative_url }}), [part two]({{ "/2026/06/11/bob-taylor-modern-computing-part-2.html" | relative_url }}), and [part three]({{ "/2026/06/12/bob-taylor-modern-computing-part-3.html" | relative_url }}).
+This is part four of a four-part series on the remarkable influence of Bob Taylor. If you haven't already, check out [part one]({{ "/2026/06/10/bob-taylor-modern-computing-part-1.html" | relative_url }}), [part two]({{ "/2026/06/11/bob-taylor-modern-computing-part-2.html" | relative_url }}), and [part three]({{ "/2026/06/12/bob-taylor-modern-computing-part-3.html" | relative_url }}).
 
 ## Internet Search
 
