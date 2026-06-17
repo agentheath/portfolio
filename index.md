@@ -6,7 +6,7 @@ layout: default
 
 ## Documentation Engineer | AI Knowledge Systems | Eval-Driven Content Analytics & Optimization
 
-I build eval-driven knowledge systems that improve production AI-agent answers by improving the content they retrieve.
+I build eval-driven knowledge systems that improve production AI-agent answers by optimizing the content they retrieve.
 
 At Meta, my recent work focused on a simple idea: when an AI agent gets an answer wrong, the fastest path to a better answer often runs through the content, not the model.
 
