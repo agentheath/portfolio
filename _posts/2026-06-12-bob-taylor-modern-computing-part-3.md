@@ -17,7 +17,7 @@ So Bob Taylor spearheaded the modern Internet, but his next project would be jus
 
 Of the numerous technologies invented at PARC under Taylor's watch, none would change the course of the computer industry more than the *graphical user interface* (GUI).
 
-The GUI attempted to harness what was in the early '70s a novel capability for computers: the ability to draw graphics on a display screen. Taylor's team at PARC wanted to use this new capability to lead the user through the process of operating the machine. Pictographic icons and the now-familiar mouse cursor replaced the arcane text commands, syntax, and programming knowledge that had previously been required.
+The GUI attempted to harness what was in the early 1970s a novel capability for computers: the ability to draw graphics on a display screen. Taylor's team at PARC wanted to use this new capability to lead the user through the process of operating the machine. Pictographic icons and the now-familiar mouse cursor replaced the arcane text commands, syntax, and programming knowledge that had previously been required.
 
 All the familiar elements that still define the GUI computing experience were developed at PARC during this time under Taylor's leadership. His team built a prototype of what would be known a decade later as the *personal computer*, complete with mouse, keyboard, a fully bitmapped display able to render complex graphics on the screen, as well as robust local-area-networking capabilities. They called their prototype the [Alto](https://www.computerhistory.org/revolution/input-output/14/347), after Palo Alto, and in almost every way except one it was the first modern personal computer; the only problem was that Xerox never sold a single one.
 
@@ -25,7 +25,7 @@ All the familiar elements that still define the GUI computing experience were de
 
 Xerox had thrown itself into the computer industry with reckless abandon, acquiring computer companies and hiring Taylor and his super-team of researchers and funding new research laboratories in which they could develop novel computer technologies. But Xerox corporate wasn't quite ready for what Taylor and his team brought them. Executives didn't see the potential of PARC's Alto project and instead wanted to focus on selling gigantic and costly mainframes to businesses and universities, following the same business model as industry leader IBM.
 
-So Xerox was never able to fully capitalize on the personal computer technology their own researchers had invented. After a frustrating few years trying to get the Xerox bigwigs to see the light on PCs, Taylor and most of his researchers left for greener pastures at more forward-thinking companies like Microsoft and Apple, or started their own companies like Adobe, 3Com, and Silicon Graphics--all utilizing technology originally developed at Xerox PARC.
+So Xerox was never able to fully capitalize on the personal computer technology its own researchers had invented. After a frustrating few years trying to get the Xerox bigwigs to see the light on PCs, Taylor and most of his researchers left for greener pastures at more forward-thinking companies like Microsoft and Apple, or started their own companies like Adobe, 3Com, and Silicon Graphics -- all utilizing technology originally developed at Xerox PARC.
 
 ## Related Content
 

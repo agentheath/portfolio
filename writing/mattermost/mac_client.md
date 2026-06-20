@@ -13,7 +13,7 @@ The Mattermost desktop client is available for installation through your **Manag
 
 3. The first time you open the app you will be prompted to sign in via our _SSO Service_ with your *@company.com* email address and the password you use to log in to your laptop.
 
-4. Add Mattermost to the "Login Items" list of applications launched on MacOS login.
+4. Add Mattermost to the "Login Items" list of applications launched on macOS login.
 
 5. From here, follow the instructions in the [Channels and Notifications setup](channels_notifications) section to join and create channels.
 

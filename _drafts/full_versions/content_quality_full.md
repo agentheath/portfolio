@@ -36,7 +36,7 @@ As more data sources are introduced, the assistant’s usage of RAG steadily inc
 
 ## Measuring AI Assistant Response Quality
 
-AI assistant response quality, or rather, the user’s perception of it, is measured directly through Positive Feedback Rate (PFR). PFR is determined by dividing the number of positive feedback events AI assistant responses receive from users by the total number of feedback events within a specified time range.
+AI assistant response quality, or rather, the user’s perception of it, is measured directly through Positive Feedback Rate (PFR). PFR is determined by dividing the number of positive feedback events that AI assistant responses receive from users by the total number of feedback events within a specified time range.
 
 The problem with PFR is the same as with other signals based on voluntary user feedback: low feedback rates.
 
@@ -48,7 +48,7 @@ In the synthetic model, assistant responses using RAG received positive feedback
 
 ## Measuring Content Quality
 
-Measuring the quality of the content retrieved by an AI assistant is more difficult. Enterprise AI assistants may retrieve many different types of internal documents, including but not limited to: docs, posts and chats from internal knowledge platforms, glossary definitions, cloud documents, spreadsheets, slide decks, code, notebooks, dashboards, user profiles, tasks, and policy articles.
+Measuring the quality of the content retrieved by an AI assistant is more difficult. Enterprise AI assistants may retrieve many different types of internal documents, including, but not limited to, docs, posts and chats from internal knowledge platforms, glossary definitions, cloud documents, spreadsheets, slide decks, code, notebooks, dashboards, user profiles, tasks, and policy articles.
 
 This study specifically examined instances where the assistant retrieved internal doc content. We chose this focus because, unlike many other document types, docs often have extensive metrics on various dimensions of content quality. Furthermore, docs are typically one of the most frequently retrieved document types, alongside collaboration and knowledge-platform content.
 
@@ -97,7 +97,7 @@ We identified the following signals of doc content quality sourced from syntheti
 * **Pages with TL;DRs**, **Overviews**, or **Summaries** facilitate quicker understanding and retrieval of key information for humans and AI consumers alike.
 * **Pages with images and/or tables** may be more challenging for LLMs to comprehend.
 
-We then analyzed this data in two ways: binomial distributions each based on a single signal and a logistic regression model which incorporated a group of signals.
+We then analyzed this data in two ways: binomial distributions, each based on a single signal, and a logistic regression model, which incorporated a group of signals.
 
 # Results & Findings
 
@@ -117,7 +117,7 @@ In this analysis, we isolated a recent 6-month synthetic window. We partitioned 
 
 ## Logistic Regression
 
-**Motivation:** As described in the preceding section, we found two-proportion z-tests for single variables, such as Page Score, to indeed be predictive of positive feedback. That said, we did not have a good view of how these signals related to each other. *For example, if we controlled for Page Score, was curated documentation center membership still predictive?* To better understand these relationships and also to include additional, potentially relevant signals, we built two logistic regression models that incorporated a more comprehensive set of signals.
+**Motivation:** As described in the preceding section, we found that two-proportion z-tests for single variables, such as Page Score, were indeed predictive of positive feedback. That said, we did not have a good view of how these signals related to each other. *For example, if we controlled for Page Score, was curated documentation center membership still predictive?* To better understand these relationships and also to include additional, potentially relevant signals, we built two logistic regression models that incorporated a more comprehensive set of signals.
 
 **Data:** We compiled two synthetic data sets that represented assistant feedback events from two half-year windows. The H1 data set had **39,480** rows, of which **20,420** represented positive feedback events. The H2 data set had **37,120** rows, of which **21,360** represented positive feedback events. Each of these data sets included columns that corresponded to 20 potential signals of content quality.
 
@@ -144,7 +144,7 @@ In this analysis, we isolated a recent 6-month synthetic window. We partitioned 
 
 **The *Intercept* term represents the effect if none of the other predictors are present.**
 
-**Testing:** We used cross-validation to test the models. For each model, we split the data set randomly into two subsets of equal size. We first trained the model only with the data from the first subset and subsequently tested its predictions using the second subset. Next, we reversed the process. The results of the cross validation are shown below.
+**Testing:** We used cross-validation to test the models. For each model, we split the data set randomly into two subsets of equal size. We first trained the model only with the data from the first subset and subsequently tested its predictions using the second subset. Next, we reversed the process. The results of the cross-validation are shown below.
 
 | H1 Model |  |  | H2 Model |  |
 | ----- | ----- | ----- | ----- | ----- |
@@ -210,7 +210,7 @@ While the implicit bias critique is methodologically sound and deserves careful 
 
 From a practical standpoint, we need to consider the effects of this bias when interpreting our results. For example, the synthetic model suggests that a small subset of personal knowledge pages predicts positive feedback for the assistant’s answers. But after investigating, we found that it is only, or mostly, the personal knowledge pages that are being retrieved by the assistant that have this property. Therefore, we cannot make the claim that personal knowledge pages *in general* are helpful.
 
-Another example: We found that higher Page Scores also predict positive feedback. We know that many retrieval systems bias for freshness — and freshness is a primary component of Page Score. But in this case, *the bias reinforces our finding*: to be in the retrieval set, a doc page needs to already have a higher-than-average Page Score, but even within this “elite” group of pages, Page Score is *still* a differentiator for positive feedback. To take an analogy, getting into Harvard University requires strong preparation, but to do well in a class *at Harvard* requires a student to differentiate themselves *even more.*
+Another example: We found that higher Page Scores also predict positive feedback. We know that many retrieval systems bias for freshness — and freshness is a primary component of Page Score. But in this case, *the bias reinforces our finding*: to be in the retrieval set, a doc page needs to already have a higher-than-average Page Score, but even within this “elite” group of pages, Page Score is *still* a differentiator for positive feedback. To take an analogy, getting into Harvard University requires strong preparation, but doing well in a class *at Harvard* requires students to differentiate themselves *even more.*
 
 Finally, our analysis incorporates a diverse set of document attributes, some of which may not be directly used by the ranking algorithm — such as curated documentation center membership — but which still exhibit consistently strong, and statistically significant, associations with positive feedback.
 

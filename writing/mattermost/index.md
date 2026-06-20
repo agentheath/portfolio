@@ -7,12 +7,12 @@ title: Mattermost User Guide
 
 ## Overview
 
-Mattermost is an open-source, externally-hosted messaging platform modeled after Slack, both in terms of UI as
-well as functionality. Mattermost offers a mature platform for self-hosting, resiliency in case of internal infrastructure failures or
+Mattermost is an open-source, externally hosted messaging platform modeled after Slack in both UI and
+functionality. Mattermost offers a mature platform for self-hosting, resiliency in case of internal infrastructure failures or
 outages, and a near-zero configuration setup with simple-to-use clients for web and mobile devices.
 
 Since Mattermost is externally hosted and largely independent of our production technology and infrastructure, it's an
-essential communications resource during outages. Users can communicate with each other privately or in easily-created
+essential communications resource during outages. Users can communicate with each other privately or in easily created
 public or private group chats called *channels*.
 
 ### Who is Mattermost for?
@@ -48,7 +48,7 @@ To install the Mattermost client on your laptop or desktop, see the following in
 * [Windows Client Setup](windows_client)
 * [Linux Client Setup](linux_client)
 
-### Join Channels and Setup Notifications
+### Join Channels and Set Up Notifications
 
 After you've logged in to Mattermost, you should join channels and set up your notifications.
 Here are instructions to get you started with that:

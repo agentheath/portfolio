@@ -33,7 +33,7 @@ If your feed is swamped with join notifications, you can suppress these notifica
 
 ## Permissions and User Types
 
-When it comes to permissions, there are two types of users: **Member** and **Channel Admins**.
+When it comes to permissions, there are two types of users: **Members** and **Channel Admins**.
 
 ### Members
 

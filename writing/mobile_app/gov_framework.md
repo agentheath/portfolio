@@ -19,7 +19,7 @@ title: Mobile App Governance Framework
 To improve the consistency and quality of the _Mobile App_ user experience, the _Mobile App_ team has established guidelines and requirements for apps published on the platform. We have created detailed checklists of these requirements organized into several categories, but they can be summarized in one sentence:
 
 
-> Apps on the _Mobile App_ platform must be **consistent** in design, **performant**, **high quality**, and **provide delightful, mobile-first experiences** for our users.
+> Apps on the _Mobile App_ platform must be **consistent** in design, **performant**, **high quality**, and **capable of providing delightful, mobile-first experiences** for our users.
 
 The _Mobile App_ team will review all new apps prior to publication to the platform, as well as apps already on the platform. Apps found to be non-compliant will be given detailed feedback and the opportunity to remediate, but the _Mobile App_ team reserves the right to take action against apps that do not meet our requirements, up to and including removal from the _Mobile App_ platform.
 
@@ -28,13 +28,13 @@ The _Mobile App_ team will review all new apps prior to publication to the platf
 The _Mobile App_ platform allows you to quickly and reliably create mobile-tailored apps visible and accessible to all _Company_ employees without the overhead of building, maintaining, distributing, and marketing a standalone mobile app. _Mobile App_ provides the following advantages to apps published on the platform:
 
 * Login authentication
-* Logging, metrics and dashboards
+* Logging, metrics, and dashboards
 * Push notifications
 * Testing
 * UI components
 * Build with familiar tools
 * Code once, deploy to Android and iOS
-* Distribution to all _Company_ mobile-devices
+* Distribution to all _Company_ mobile devices
 * Built-in user base/visibility
 
 
@@ -46,12 +46,12 @@ We drafted these guidelines to help you build successful apps that provide delig
 
 ### Guiding Principles
 
-_Our guiding principle is simple: we want to ensure apps created on Mobile App are **consistent** in design, **performant**, **high quality**, and **provide delightful, mobile-first experiences** for our users. To that end, please consider the following when designing and developing apps for Mobile App:_
+_Our guiding principle is simple: we want to ensure apps created on Mobile App are **consistent** in design, **performant**, **high quality**, and **capable of providing delightful, mobile-first experiences** for our users. To that end, please consider the following when designing and developing apps for Mobile App:_
 
 * **_Mobile App_ is best-suited for lightweight tools tailored for the mobile experience.** Apps requiring large screen real estate or heavy-duty work like extensive typing or coding are not suitable for _Mobile App_.
-* **Consider the value of having a _mobile_ app.** Don’t duplicate your web app. Mobile apps should compliment desktop apps to enhance overall productivity. Would this app serve your user’s needs just as well as a desktop app? Does it utilize mobile-specific features like push notifications or location services? Will _Company_mates need to access it while away from their desks?
+* **Consider the value of having a _mobile_ app.** Don’t duplicate your web app. Mobile apps should complement desktop apps to enhance overall productivity. Would this app serve your users’ needs just as well as a desktop app? Does it utilize mobile-specific features like push notifications or location services? Will _Company_mates need to access it while away from their desks?
 * **Clearly define the unique value of your app.** Apps should serve use-cases not already served by the _Mobile App_ platform. Don’t duplicate the functionality of existing _Mobile App_ apps.
-* **_Mobile App_ is only available to _Company_ FTEs.** _Mobile App_ is not available for visitors, contractors, or 3rd parties.
+* **_Mobile App_ is only available to _Company_ FTEs.** _Mobile App_ is not available for visitors, contractors, or third parties.
 * **Align your app with _Company_’s mission and values as well as company priorities.**
 
 ### [Detailed Checklist of Requirements for _Mobile App_ Apps](checklist)
@@ -70,7 +70,7 @@ To publish an app to the _Mobile App_ platform, start by filling out our App Sub
 
 #### **2. XFN Review**
 
-App submissions will be reviewed by the _Mobile App_ XFN team including but not limited to:
+App submissions will be reviewed by the _Mobile App_ XFN team, including but not limited to:
 
 * Product Manager
 * Engineering Manager
@@ -86,7 +86,7 @@ If your app doesn't currently meet all of the requirements, the _Mobile App_ tea
 #### **3. Publish to Test Sandbox**
 
 
-Once your app has passed all required reviews it will be published internally for final _User Acceptance Testing_ by the _Mobile App_ team. Upon successful completion, the _Mobile App_ XFN team will give final approval for your app’s publication to the platform.
+Once your app has passed all required reviews, it will be published internally for final _User Acceptance Testing_ by the _Mobile App_ team. Upon successful completion, the _Mobile App_ XFN team will give final approval for your app’s publication to the platform.
 
 
 #### **4. App Published to _Mobile App_ Prod**

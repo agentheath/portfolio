@@ -23,7 +23,7 @@ Mattermost has two types of channels: *Public* and *Private*. Anyone can join a 
 ## Desktop: How to add members to your channel
 
 1. Click the channel in the left sidebar.
-2. Click the channel name at the top of the channel to open a drop-down menu
+2. Click the channel name at the top of the channel to open a drop-down menu.
 3. Click **Add Members** and search for people by their username or full name.
 
 Any member of a channel can add new members, not just the channel admin. You can also add a user to a public channel by mentioning them with _@username_ in that channel.

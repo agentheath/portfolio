@@ -7,7 +7,7 @@ title: Mattermost Mobile App
 
 The Mattermost app is deployed through MDM and pre-installed on all _Company_-issued iOS and Android devices.
 
-* The app will auto install, even if you manually remove it.
+* The app will install automatically, even if you manually remove it.
 * The app authenticates with _SSO Service_ credentials.
 * The app will unlock with a device passcode, Face ID, or fingerprint. Once you've authenticated, you won't be prompted to log in again for 14 days.
 
@@ -17,7 +17,7 @@ The Mattermost app is deployed through MDM and pre-installed on all _Company_-is
 
 2. The server URL is pre-populated. If it is not, enter: *[server URL]()* and tap connect.
 
-3. You will be prompted to login. Tap the *SSO Service* button to authenticate.
+3. You will be prompted to log in. Tap the *SSO Service* button to authenticate.
 
 4. After you've authenticated, you are automatically prompted to **Open this page in "Mattermost"**. If you are not, tap the link provided.
 

@@ -29,7 +29,7 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 
 - [ ] Does your app have an entry in the Product Catalog (separate from the desktop version) which lists at least the following: _Product Owner, Oncall, Engineering Manager,_ and _Description_?
 - [ ] Can users quickly get help from either your oncalls, a group, or self-service documentation?
-- [ ] Is there documentation specific to this mobile app? (separate from docs for desktop app) _Note: some very simple apps may be exempted from this requirement._
+- [ ] Is there documentation specific to this mobile app? (separate from docs for the desktop app) _Note: some very simple apps may be exempted from this requirement._
 {: style='list-style-type: none'}
 
 ## Design
@@ -49,8 +49,8 @@ _The Mobile App team has compiled the following checklist of requirements for ap
     - [ ] Apps should have a clear primary action per screen
     {: style='list-style-type: none'}
 - [ ] Does your app have clear user navigation and task completion flows?
-- [ ] Does your app have clear feedback mechanisms that keep users informed as they interact with the app? _Example: When a user makes an edit on a form they should see the edit reflected._
-- [ ] Does your app provide a readily-accessible description?
+- [ ] Does your app have clear feedback mechanisms that keep users informed as they interact with the app? _Example: When a user makes an edit on a form, they should see the edit reflected._
+- [ ] Does your app provide a readily accessible description?
 - [ ] Does it adhere to accessibility guidelines?
     - [ ] Can the user complete tasks in your app using a screen reader?
     {: style='list-style-type: none'}
@@ -61,7 +61,7 @@ _The Mobile App team has compiled the following checklist of requirements for ap
 
 
 
-- [ ] If your app uses 3rd-party libraries, have you verified that you have a current license for those libraries?
+- [ ] If your app uses third-party libraries, have you verified that you have a current license for those libraries?
 {: style='list-style-type: none'}
 
 ## Privacy
@@ -78,12 +78,12 @@ _Feed cards allow apps to show dynamic and relevant content on the Mobile App ho
 
 
 - [ ] Does the feed card surface meaningful, relevant, and timely information to users?
-- [ ] Does the feed card have small digestible chunks of information that the user can understand and/or take action upon?
+- [ ] Does the feed card have small, digestible chunks of information that the user can understand and/or take action upon?
 - [ ] Has your feed card design been approved by the _Mobile App_ Product Designer?
 - [ ] Has the Mobile App team reviewed the ranking and display time of your feed card?
 - [ ] Does your feed card load data quickly? Feed cards that impact the performance of the home page will not be allowed.
 - [ ] Can users easily disable or dismiss your feed card when appropriate?
-- [ ] Does your feedcard comply with our data access guidelines? When feedcards are toggled off by the user or don’t need to be visible, they should not be querying data.
+- [ ] Does your feed card comply with our data access guidelines? When feed cards are toggled off by the user or don’t need to be visible, they should not query data.
 {: style='list-style-type: none'}
 
 [back](../)

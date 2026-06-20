@@ -16,7 +16,7 @@ This section is for IRC users migrating to Mattermost. It contains information o
 ## What's different
 
 * **App support**: Mattermost offers a fully-featured web client as well as native desktop and mobile apps for Mac, Windows, Linux, iOS, and Android.
-* **No intern dependencies**: Our deployment of Mattermost is externally hosted. Mattermost has minimal dependence on our internal _Company_ infrastructure. Even in the event of a major site event that takes down all _Company_ infrastructure, Mattermost will remain up and running. Our bots are the exception to this since they depend on internal servers.
+* **No internal dependencies**: Our deployment of Mattermost is externally hosted. Mattermost has minimal dependence on our internal _Company_ infrastructure. Even in the event of a major site event that takes down all _Company_ infrastructure, Mattermost will remain up and running. Our bots are the exception to this since they depend on internal servers.
 * **UI**: The Mattermost user interface is modeled after Slack's interface.
 * **IRC commands mirrored without usernames**: All commands in IRC are mirrored to Mattermost via the Matterbridge service. However, these messages and commands will be displayed in Mattermost as coming from the default user "*mattermost*" rather than the username of the original sender.
 
@@ -26,7 +26,7 @@ Matterbridge is a self-hosted Go application created by Wim to serve as a bridge
 
 Matterbridge is also compatible with Gitter, XMPP, Slack, Discord, Telegram, Rocket.Chat, Hipchat (via XMPP), Steam, Twitch, ssh-chat, Zulip, and Matrix.
 
-You can find more details and contribute to the [Matterbridge project on Github](https://github.com/42wim/matterbridge).
+You can find more details and contribute to the [Matterbridge project on GitHub](https://github.com/42wim/matterbridge).
 
 ## Additional resources
 

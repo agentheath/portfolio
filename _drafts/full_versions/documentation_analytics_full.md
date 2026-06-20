@@ -11,7 +11,7 @@ title: "The AI-Driven Shift in Enterprise Knowledge Consumption"
 
 * **In the synthetic model below, retrieval via an *internal AI assistant* becomes the primary mode of doc consumption**, surpassing direct human hits as AI-assisted knowledge workflows mature.
 * **In the synthetic model, the use of Retrieval-Augmented Generation (RAG) in internal AI assistant responses significantly increases**, from **7.8%** of all assistant responses in Month 1 to **29.6%** in Month 9.
-* **Overall doc consumption and usage increases roughly threefold in the synthetic model**: AI-assisted RAG significantly increases the overall usage of internal docs.
+* **Overall doc consumption and usage increase roughly threefold in the synthetic model**: AI-assisted RAG significantly increases the overall usage of internal docs.
 * **Docs and an *internal knowledge platform*** are modeled as the principal sources for AI assistant RAG.
 * **Doc consumption is unevenly distributed in the synthetic model**; many pages are frequently retrieved by the internal AI assistant but rarely visited by humans, and vice versa.
 
@@ -50,7 +50,7 @@ For this analysis, “total doc consumption” is defined as **doc hits + intern
 
 # Stable Human Doc Traffic & Changing Consumption Patterns
 
-Despite the dramatic rise in AI-driven consumption in the synthetic model, human doc traffic remains stable, with **172,400 hits in Month 1 compared to 174,300 hits in Month 9**. This illustrates how the rise in AI retrievals can be additive, rather than simply cannibalizing human readership. The knowledge base is being used more broadly, not just differently. Aggregate documentation consumption and utilization is growing rapidly, even as human readership remains stable.
+Despite the dramatic rise in AI-driven consumption in the synthetic model, human doc traffic remains stable, with **172,400 hits in Month 1 compared to 174,300 hits in Month 9**. This illustrates how the rise in AI retrievals can be additive, rather than simply cannibalizing human readership. The knowledge base is being used more broadly, not just differently. Aggregate documentation consumption and utilization are growing rapidly, even as human readership remains stable.
 
 # Docs & Internal Knowledge Platform Drive AI Assistant RAG
 

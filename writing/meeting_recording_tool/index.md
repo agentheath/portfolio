@@ -16,9 +16,9 @@ title: Meeting Recording Tool User Guide
 
 _Meeting Recording Tool_ is the _Company_-approved solution for streaming and recording meetings. Use _Meeting Recording Tool_ to stream Zoom or other VC meetings directly to a group. After your meeting or event, the recording will be available for viewing in that group.
 
-Recorded meetings can be scheduled in advance using either the _Meeting Recording Tool_ UI or the Calendar tool. Or you can use _Meeting Recording Tool_ to stream and record a meeting already in-progress.
+Recorded meetings can be scheduled in advance using either the _Meeting Recording Tool_ UI or the Calendar tool. Or you can use _Meeting Recording Tool_ to stream and record a meeting already in progress.
 
-_Meeting Recording Tool_ is for conferences, meetings, and trainings to be recorded and shared with other employees for later viewing. Please use good judgement when using _Meeting Recording Tool_ and consult with legal in advance if you need to record sensitive materials or discussion topics.
+_Meeting Recording Tool_ is for conferences, meetings, and trainings to be recorded and shared with other employees for later viewing. Please use good judgment when using _Meeting Recording Tool_ and consult with legal in advance if you need to record sensitive materials or discussion topics.
 
 ---
 
@@ -42,7 +42,7 @@ To schedule a recorded event using the _Meeting Recording Tool_ UI:
 1. Toggle whether you would like viewers to be able to join the call.
     * If toggled _off_, viewers will be able to watch your event, but will not be able to join the call and participate in the event.
 1. In the _Share To_ field, enter the name of the group where your event will be streamed.
-    * All members of the group you specify will be able to watch the livestream of your event and the recording afterwards.
+    * All members of the group you specify will be able to watch the livestream of your event and the recording afterward.
 1. In the _Event Announcement_ pane, toggle whether you would like to make an announcement post to the group you specified above.
     * If toggled _on_, enter your post content in the _Description_ field. You can also upload a photo or image for your announcement post by clicking _Upload Event Photo_ below the _Description_ field.
     * See a preview of your post in the _Announcement Preview_ pane at the top of the page.
@@ -67,9 +67,9 @@ You can also access the Live Control interface directly from the Calendar entry 
 
 > IMPORTANT: **Even if you scheduled it in the Calendar tool, your stream will not start automatically**. You will need to manually start and stop the stream from the Live Control interface due to _Company_ policy requirements.
 
-## Recording a Meeting Already In-Progress
+## Recording a Meeting Already in Progress
 
-This section is for users who want to stream and record a meeting _already in-progress_.
+This section is for users who want to stream and record a meeting _already in progress_.
 
 1. Access the _Meeting Recording Tool_ homepage.
 1. Click the ```+``` icon in the upper left corner and select _Go live now_.
@@ -77,7 +77,7 @@ This section is for users who want to stream and record a meeting _already in-pr
 1. In the _Event Type_ field, select whether this event is a _meeting_ or a _training_.
 1. In the _Share To_ field, enter the name of the group where your event will be streamed.
 1. Select whether you are using **Zoom** or another option for this event.
-1. _If your meeting is already in-progress_, click the toggle for _Use my own meeting link_.
+1. _If your meeting is already in progress_, click the toggle for _Use my own meeting link_.
 1. Enter the meeting URL in the _Meeting URL_ field.
 1. Click _Next_ to be taken to the **Live Control UI** where you can start and stop your livestream.
 

@@ -18,17 +18,17 @@ There are several different ways to generate a short URL.
 ### Create a Short URL on the _URL Shortener_ Homepage
 
 1. Go to the _URL Shortener_ homepage.
-1. Enter the URL that you'd like to shorten in the **Full Url** field, then click **Create Shortened URL**. A URL will be generated with a randomized stringkey.
+1. Enter the URL that you'd like to shorten in the **Full URL** field, then click **Create Shortened URL**. A URL will be generated with a randomized string key.
 1. On the following screen, click **Copy to clipboard** to copy your new shortened URL.
 
-### Create a Short URL with a Custom URL (stringkey)
+### Create a Short URL with a Custom URL (string key)
 
-Create an URL in the format ```url-shortener.com/<custom stringkey>```. These are much easier to remember than randomized URLS.
+Create a URL in the format ```url-shortener.com/<custom string key>```. These are much easier to remember than randomized URLs.
 
 1. Go to the _URL Shortener_ homepage.
-1. Enter the URL that you'd like to shorten in the **Full Url** field.
-1. Enter the custom stringkey you'd like for your URL in the **String Key** field.
-1. Click **Create URL**. A URL will be generated with your custom stringkey.
+1. Enter the URL that you'd like to shorten in the **Full URL** field.
+1. Enter the custom string key you'd like for your URL in the **String Key** field.
+1. Click **Create URL**. A URL will be generated with your custom string key.
 1. On the following screen, click **Copy to clipboard** to copy your new custom URL.
 
 ### Create a Short URL with the Right-Click Menu
