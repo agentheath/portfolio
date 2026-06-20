@@ -5,7 +5,7 @@ title: Mattermost Windows Client
 
 # Windows Client Setup Instructions
 
-1. To install the Mattermost desktop client on your Windows 10 machine, click the Windows icon in the lower-left corner of your screen and type ```Powershell```. Right-click on the PowerShell app icon and click **Run as Adminstrator**.
+1. To install the Mattermost desktop client on your Windows 10 machine, click the Windows icon in the lower-left corner of your screen and type ```Powershell```. Right-click on the PowerShell app icon and click **Run as Administrator**.
 
 2. At the Powershell command prompt, type ```choco list mattermost``` and press *Enter* or *Return*.
 
